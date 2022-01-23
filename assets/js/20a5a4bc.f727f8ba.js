@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatacraft=self.webpackChunkdatacraft||[]).push([[430],{365:function(a){a.exports=JSON.parse('{"allTagsPath":"/drkapichu.github.io/blog/tags","slug":"/drkapichu.github.io/blog/tags/datacraft","name":"datacraft","count":1,"permalink":"/drkapichu.github.io/blog/tags/datacraft"}')}}]);
