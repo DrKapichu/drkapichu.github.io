@@ -1,0 +1,254 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #d7c378;       /* <-- Color that appears in case an element is missing; I chose some golden (gray=#8d8b87) */
+  --ifm-color-primary-dark: #00ADD0;
+  --ifm-color-primary-darker:#00ADD0;
+  --ifm-color-primary-darkest: #00ADD0;
+  --ifm-color-primary-light: #d7c378;
+  --ifm-color-primary-lighter: #d7c378;
+  --ifm-color-primary-lightest: #d7c378;
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-background-color: #25be8e;    /* <-- Color of the navigation bar: https://imagecolorpicker.com/color-code/  */
+  --ifm-footer-background-color: #26be8e;    /* <-- Color of the footer... Really poor choice so far... */
+  --ifm-background-color:#33FF33;
+  --ifm-background-surface-color:var(--ifm-background-color);
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(11, 124, 57);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+
+@font-face {
+  font-family: "MetricRegular";
+  src: url("/fonts/Metric-Regular.otf");
+ }
+
+ @font-face {
+  font-family: "Tiempos";
+  src: url("/fonts/Tiempos.otf") format("opentype");
+ }
+
+
+ @font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Regular.ttf") format('truetype');
+  font-weight:400;
+}
+
+@font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Medium.ttf") format('truetype');
+  font-weight:500;
+}
+
+@font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Bold.ttf") format('truetype');
+  font-weight:700;
+}
+
+@font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Black.ttf") format('truetype');
+  font-weight:900;
+}
+
+.container-wide{
+  max-width:90% !important;
+}
+
+
+.img-blog-header{
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+.blog-article-custom img{
+  max-width:75%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:1rem;
+}
+
+
+body{
+  font-family: "InterCustom";
+  /* font-size:14px; */
+}
+
+h1{
+  font-family: "Tiempos";
+}
+
+.navbar__title{
+  font-family: "Tiempos";
+}
+
+.navbar__item{
+  font-size:16px;
+}
+
+.navbar__brand{
+  font-size:16px;
+}
+
+.goldencolor{
+  color:var(--ifm-color-primary);
+}
+
+.gold{
+  color:var(--ifm-color-primary);
+}
+
+.hero__title{
+  font-size:40px;
+  text-align: center;
+}
+
+.hero--blue{
+  background-color:#0b7c39;  /* <-- Background color of all pages, general setting that may be changed locally to a page... | This is the previous color setting by Theo Alves:  #16293c */
+}
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(223, 18, 18, 0.2); */
+  /* max-width: 300px; */
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color:#32475a;
+  border-radius: 0px;
+  height:100%;
+}
+
+
+.card__image{
+  width:100%;
+  height:200px;
+}
+
+.card__image > img{
+  width:100%;
+  object-fit: cover;
+  height:200px;
+}
+
+.hero__subtitle{
+  text-align: left;
+}
+
+html[data-theme="dark"]{
+  --ifm-background-color:#0b7c39;  /* <-- Background color of all pages, general setting that may be changed locally to a page... | This is the previous color setting by Theo Alves:  #16293c */
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.prism-code{
+  font-size: 14px;
+}
+
+.badge.badge--primary{
+  margin-right:5px;
+  color:black;
+  font-family:"InterCustom";
+}
+
+.badge{
+  font-size:70%
+}
+
+.badge.badge--primary > a{
+  color:black;
+  font-family: 'Segoe UI';
+}
+
+
+
+.longcard{
+  background-color: #32475a;          /* <-- This is the general theme color of the Longcard */
+  margin-bottom: 40px;
+  padding-bottom:0px !important;
+  min-height:200px;
+
+}
+
+.shortcard-container{
+  margin-bottom: 30px;
+}
+
+.shortcard{
+  background-color: #32475a;          /* <-- This is the general theme color of the shortcard */
+  padding-bottom:0px !important;
+  margin-right:10px;
+  height:100%;
+}
+
+.longcard-image{
+  padding:0px !important;
+  width:100%;
+  height:200px;
+}
+
+.longcard-image > img{
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+
+
+.longcard-body{
+  padding:20px!important;
+  margin:auto;
+  /* min-height:200px; */
+}
+
+.longcard-description{
+  font-family:"InterCustom";
+  margin-bottom:0px;
+  vertical-align: middle;
+}
+
+.longcard-title{
+  font-family:"InterCustom";
+  font-size:24px;
+  margin-bottom:0px;
+  vertical-align: middle;
+}
+
+.shortcard-title{
+  font-family:"InterCustom";
+  font-size:20px;
+  margin-bottom:0px;
+  vertical-align: middle;
+}
+
+
+.avatar__name{
+  font-size:12px !important;
+}
+
+.avatar__intro > time{
+  font-size:12px !important;
+}
+
+
+.row-preview{
+  margin-bottom:30px;
+}
