@@ -6,8 +6,8 @@ module.exports = {
   url: 'https://drkapichu.github.io/',
   deploymentBranch: 'gh-pages',
   baseUrl: '/',
-  organizationName: 'DrKapichu', // 'datacraft', // Usually your GitHub org/user name.
-  projectName: 'drkapichu.github.io',  // 'DrKapichu.github.io', // Usually your repo name.
+  organizationName: 'DrKapichu',         // Usually your GitHub org/user name.
+  projectName: 'drkapichu.github.io',    // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
