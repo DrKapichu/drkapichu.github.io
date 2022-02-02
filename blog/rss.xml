@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>datacraft blog Blog</title>
-        <link>https://drkapichu.github.io/drkapichu.github.io/blog</link>
+        <link>https://drkapichu.github.io/blog</link>
         <description>datacraft blog Blog</description>
         <lastBuildDate>Fri, 15 Oct 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[My first GitHub blog! (strongly inspired by Ekimetrics'...)]]></title>
-            <link>https://drkapichu.github.io/drkapichu.github.io/blog/welcome</link>
+            <link>https://drkapichu.github.io/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Fri, 15 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to the first post! Short text, but sexy... People are eager to know more.]]></description>

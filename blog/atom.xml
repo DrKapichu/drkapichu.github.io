@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://drkapichu.github.io/drkapichu.github.io/blog</id>
+    <id>https://drkapichu.github.io/blog</id>
     <title>datacraft blog Blog</title>
     <updated>2021-10-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://drkapichu.github.io/drkapichu.github.io/blog"/>
+    <link rel="alternate" href="https://drkapichu.github.io/blog"/>
     <subtitle>datacraft blog Blog</subtitle>
-    <icon>https://drkapichu.github.io/drkapichu.github.io/img/favicon.png</icon>
+    <icon>https://drkapichu.github.io/img/favicon</icon>
     <entry>
         <title type="html"><![CDATA[My first GitHub blog! (strongly inspired by Ekimetrics'...)]]></title>
         <id>welcome</id>
-        <link href="https://drkapichu.github.io/drkapichu.github.io/blog/welcome"/>
+        <link href="https://drkapichu.github.io/blog/welcome"/>
         <updated>2021-10-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to the first post! Short text, but sexy... People are eager to know more.]]></summary>
         <content type="html"><![CDATA[<h1>And here is the content of my first blog...</h1><h2>Welcome to our technology website!</h2><p>We have been working in the Data Science industry for 15 years and are now the biggest pure player in Europe with 250+ data profiles. We have been benefiting from the open source community for a while, and we want to give back to the community by sharing insights on what we&#x27;ve learned over the years:</p><ul><li><a href="/blog">Blog</a> - read articles on various Data topics: from industrialization on cloud platforms to exotic Deep Learning algorithms</li><li><a href="/docs">Best practices &amp; convictions</a> - discover our programming best practices, our tech convictions and preferred technologies</li><li><a href="/opensource">Open source contributions</a> - browse our own open source contributions (Python libraries, code snippets)</li></ul><p>💌 After reading behind the scenes of the Data Science Company, feel free to <a href="mailto:inno@ekimetrics.com">send us a email</a> for any questions or feedbacks! </p><h2>About Ekimetrics</h2><p>Ekimetrics is the first pure player in Data Science in Europe. We operate from Paris, London, New York and Hong Kong with 250+ Data Scientists, Data Engineers, Full Stack Developers, strategy consultants and UX designers. </p><p>We help companies steer their data opportunity, build data capabilities, and deploy actionable solutions, to power up marketing and operational performance, as well as (re)energizing business models. Our primary focus is to deliver immediate business gains, while guaranteeing sustainable data capital for our clients.</p>]]></content>

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatacraft=self.webpackChunkdatacraft||[]).push([[535],{5641:function(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"My first GitHub blog! (strongly inspired by Ekimetrics\'...)","permalink":"/drkapichu.github.io/blog/welcome"}]}')}}]);
