@@ -5,13 +5,13 @@ module.exports = {
   tagline: 'datablog - The blog of the datacraft community. A blog for rocky discussions.',
   url: 'https://drkapichu.github.io/',
   deploymentBranch: 'gh-pages',
-  baseUrl: '/drkapichu.github.io/',
+  baseUrl: '/',
   organizationName: 'DrKapichu', // 'datacraft', // Usually your GitHub org/user name.
   projectName: 'drkapichu.github.io',  // 'DrKapichu.github.io', // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon',
   themeConfig: {
     image:"http://ekimetrics.github.io/img/10-cubecube03.jpg",
     prism: {theme: require('prism-react-renderer/themes/dracula'), additionalLanguages: ['python'],},
@@ -24,7 +24,7 @@ module.exports = {
       title: 'datacraft',
       logo: {
         alt: ' ',
-        src: 'img/datacraft_logo.png',
+        src: 'img/favicon.png',
       },
       items: [
         {to: 'blog/', label: 'Blog', position: 'left'},
