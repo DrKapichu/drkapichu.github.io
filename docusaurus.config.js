@@ -13,7 +13,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/datacraft_logo.png',
   themeConfig: {
-    image:"img/blog/pikachu.png",
+    image:"img/datacraft-team-3.JPG",    // This changes the previsualisation image some apps display (WhatsApp, Slack...) display when you send the link of the website.
     prism: {theme: require('prism-react-renderer/themes/dracula'), additionalLanguages: ['python'],},
     colorMode:{defaultMode:"dark", disableSwitch:true,},
     googleAnalytics: {trackingID: 'UA-124520099-9',
@@ -22,14 +22,14 @@ module.exports = {
     },
     logo: {
       alt: 'datacraft Logo',
-      src: 'img/datacraft_logo.png',
+      src: 'img/datacraft_logo.png',                  // This changes the logo that appears in the browser tab.
       // href: 'https://opensource.facebook.com/',
     },
     navbar: {
       title: 'datacraft',
       logo: {
         alt: ' ',
-        src: 'img/favicon.png',
+        src: 'img/datacraft_logo.png',             // This changes the logo that appears side-to-side with the 'datacraft' button in the navigation bar.
       },
       items: [
         {to: 'blog/', label: 'Blog', position: 'left'},
@@ -38,15 +38,12 @@ module.exports = {
 
         {href: 'https://datacraft.paris/', label: 'datacraft website', position: 'right'},
         {href: 'http://eepurl.com/hfkB9z', label: 'Newsletter', position: 'right'},
-        {href: 'https://github.com/datacraft-paris', label: 'Github', position: 'right',},
+        {to: 'https://github.com/datacraft-paris', label: 'Github', position: 'right',},
       ],
     },
     footer: {
-/*      logo: {
-        alt: 'datacraft Logo',
-        src: 'img/datacraft_logo.png',
-      },
-*/      links: [
+/*      logo: {alt: 'datacraft Logo', src: 'img/datacraft_logo.png',},*/
+      links: [
         {
           title: 'About us',
           items: [
