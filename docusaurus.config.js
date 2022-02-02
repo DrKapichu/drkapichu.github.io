@@ -11,14 +11,19 @@ module.exports = {
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon',
+  favicon: 'img/datacraft_logo.png',
   themeConfig: {
-    image:"http://ekimetrics.github.io/img/10-cubecube03.jpg",
+    image:"img/blog/pikachu.png",
     prism: {theme: require('prism-react-renderer/themes/dracula'), additionalLanguages: ['python'],},
     colorMode:{defaultMode:"dark", disableSwitch:true,},
     googleAnalytics: {trackingID: 'UA-124520099-9',
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
+    },
+    logo: {
+      alt: 'datacraft Logo',
+      src: 'img/datacraft_logo.png',
+      // href: 'https://opensource.facebook.com/',
     },
     navbar: {
       title: 'datacraft',
@@ -37,8 +42,11 @@ module.exports = {
       ],
     },
     footer: {
-//      style: 'dark',
-      links: [
+/*      logo: {
+        alt: 'datacraft Logo',
+        src: 'img/datacraft_logo.png',
+      },
+*/      links: [
         {
           title: 'About us',
           items: [
