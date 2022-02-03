@@ -21,7 +21,7 @@ All of this work actually relies on the **npm** commannd and the **docusaurus** 
 
  - --> npm is the package manager for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs. Run npm help to get a list of available commands.
 
- - --> Docusaurus is a project for easily building, deploying, and maintaining open source project websites. Docusaurus is a tool in the Documentation as a Service & Tools category of a tech stack.
+ - --> Docusaurus is a project for easily building, deploying, and maintaining open source project websites. Docusaurus is a tool in the Documentation as a Service & Tools category of a tech stack. It builds the whole content, shape and look of the website, so when there is something complex to implement, you should turn to the docusaurus website: [https://docusaurus.io/](https://docusaurus.io/) (see documentation).
 
 ---
 
