@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Few Shot Learning - application de la m\xe9thode iPET","permalink":"/blog/draft"},{"title":"My first GitHub blog! (strongly inspired by Ekimetrics\'...)","permalink":"/blog/welcome"}]}')}}]);
