@@ -17,16 +17,16 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      uses: actions/checkout@v1
-      uses: actions/setup-node@v1
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: 15
-      run: npm install
-      run: |
+      - run: npm install
+      - run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "gh-actions"
           GIT_USER=DrKapichu npm run deploy
-      env:
+      - env:
           GIT_USER: ${{ secrets.GIT_USER }}
           GIT_PASS: ${{ secrets.GIT_PASSWORD }}
           
