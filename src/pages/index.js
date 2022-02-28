@@ -78,10 +78,11 @@ function HomePageBlock({title,img,description,href}){
         <img src={useBaseUrl(img)}/>
       </div>
     }
-    <p style={{ marginBottom: 0 }}>{description}</p>
+    <p style={{color:"white", marginBottom: 0}}>{description}</p> 
   </Col>
   )
 }
+/* <-- datacraft style: add in style spec'' color:"#004c23", '' */
 
 
 function Home() {
@@ -95,7 +96,7 @@ function Home() {
       >
        <header 
         className={clsx('hero hero--primary', styles.heroBanner)} 
-        style={{backgroundImage:`url(${useBaseUrl('img/magnificent.jpg')})`,backgroundSize:"cover",backgroundPosition: "bottom", minHeight:"calc(100vh - 200px)",zIndex:-1}}
+        style={{backgroundImage:`url(${useBaseUrl('img/HomePageIllustration.jpg')})`,backgroundSize:"cover",backgroundPosition: "bottom", minHeight:"calc(100vh - 200px)",zIndex:-1}}
       >
         <div className={clsx("container", styles.card)}>
           <h1 className="hero__subtitle" style={{color:"white",fontSize:"40px"}}>datacraft</h1>

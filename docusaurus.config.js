@@ -36,8 +36,8 @@ module.exports = {
         {to: 'docs/', label: 'Docs', position: 'left'},
         {to: 'opensource/', label: 'Open Source', position: 'left',},
 
-        {href: 'https://datacraft.paris/', label: 'datacraft website', position: 'right'},
-        {href: 'http://eepurl.com/hfkB9z', label: 'Newsletter', position: 'right'},
+        {to: 'https://datacraft.paris/', label: 'datacraft website', position: 'right'},
+        {to: 'http://eepurl.com/hfkB9z', label: 'Newsletter', position: 'right'},
         {to: 'https://github.com/datacraft-paris', label: 'Github', position: 'right',},
       ],
     },
@@ -47,17 +47,17 @@ module.exports = {
         {
           title: 'About us',
           items: [
-            {label: 'Who we are ?', to: 'https://ekimetrics.com/who-we-are/',},
-            {label: 'Our team', to: 'https://ekimetrics.com/our-team/',},
+            {label: 'Who we are ?', to: 'https://datacraft.paris/about-us/',},
+            /*{label: 'Our team', to: 'https://datacraft.paris/about-us/',},*/
             {label: 'Subscribe to our newsletter', to: 'http://eepurl.com/hfkB9z',},
           ],
         },
         {
           title: 'Find us',
           items: [
-            {label: 'Github', href: 'https://github.com/datacraft-paris',},
-            {label: 'Careers', href: 'https://ekimetrics.com/careers/',},
-            {label: 'Eki on Welcome to the jungle', href: 'https://www.welcometothejungle.com/fr/companies/ekimetrics',},
+            {label: 'Github', to: 'https://github.com/datacraft-paris'},
+            /*{label: 'Careers', href: 'https://ekimetrics.com/careers/',},*/
+            {label: 'datacraft on Welcome to the jungle', to: 'https://www.welcometothejungle.com/fr/companies/ekimetrics',},
           ],
         },
         {
