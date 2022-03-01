@@ -13,7 +13,7 @@
             <guid>testou</guid>
             <pubDate>Mon, 28 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[C'est un test pour faire fonctionner l'action GitHub]]></description>
-            <content:encoded><![CDATA[<p>My fucking test</p><p>.</p><p>.</p><p>.</p><p><strong>Cet article est payant. TOutefois je l&#x27;ai sur mon ordi, dans les documents de l&#x27;égypto, mais il est particulièrement long et structuré d&#x27;une manière que je ne pourrais pas reproduire en markdown.</strong></p><p><strong>Que faire ?</strong>
+            <content:encoded><![CDATA[<p>My fucking test</p><p>This is a fucking new post with GitHub automatic Actions!</p><p>.</p><p>.</p><p>.</p><p><strong>Cet article est payant. TOutefois je l&#x27;ai sur mon ordi, dans les documents de l&#x27;égypto, mais il est particulièrement long et structuré d&#x27;une manière que je ne pourrais pas reproduire en markdown.</strong></p><p><strong>Que faire ?</strong>
 .</p><p>.</p><p>.</p><hr/><h1>Un titre</h1><p><img src="./img/2022-02-28-GitHubActions/Gozilla6.jpg" alt="image" title="**Some text**"/></p><p>And here I write some text to have something to commit!!!</p><p>This is a new day, a new year, a new life.
 Another brick in the wall..
 Tada</p>]]></content:encoded>
