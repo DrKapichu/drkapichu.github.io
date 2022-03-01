@@ -14,6 +14,9 @@ keywords:
 ---
 
 My fucking test
+
+This is a fucking new post with GitHub automatic Actions!
+
 <!--truncate-->
 
 
