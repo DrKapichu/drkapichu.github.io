@@ -39,5 +39,7 @@ My fucking test
 
 ![image](./img/2022-02-28-GitHubActions/Gozilla6.jpg "**Some text**")
 
-And here I write some text to have something to commit!!
+And here I write some text to have something to commit!!!
+
+This is a new day, a new year, a new life.
 
