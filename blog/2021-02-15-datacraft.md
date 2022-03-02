@@ -47,11 +47,27 @@ Un club Data Science et IA ? Là où beaucoup veulent absolument qu’on remplac
 
 ## Datacraft : un club data science et IA installé au cœur de La Sorbonne
 
-![image](./img/2021-02-15-datacraft/datacraft-scai.png "J’ai rencontré Isabelle Hilali dans ses locaux du SCAI (Sorbonne Center for Artificial Intelligence) qui héberge Datacraft, le club de la data science et de l’IA qu’elle a créé")
-**il manque une légende pour cette image**
+<!-- ![image](./img/2021-02-15-datacraft/datacraft-scai.png "J’ai rencontré Isabelle Hilali dans ses locaux du SCAI (Sorbonne Center for Artificial Intelligence) qui héberge Datacraft, le club de la data science et de l’IA qu’elle a créé")
+**il manque une légende pour cette image** -->
 
-> "J’ai observé que l’univers de la data science et des data scientists est un domaine sur lequel il faut apprendre tout le temps et où tout va extrêmement vite."
-> Isabelle Hilali – Datacraft
+<figure>
+  <img width="85%" height="500px" src="./img/2021-02-15-datacraft/datacraft-scai.png" alt="datacraft" />
+  <figcaption>J’ai rencontré Isabelle Hilali dans ses locaux du SCAI (Sorbonne Center for Artificial Intelligence) qui héberge Datacraft, le club de la data science et de l’IA qu’elle a créé</figcaption>
+</figure>
+
+<figure>
+    <img src="./img/2021-02-15-datacraft/datacraft-scai.png"
+         alt="datacraft" />
+    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
+</figure>
+
+
+:::citation
+
+ "J’ai observé que l’univers de la data science et des data scientists est un domaine sur lequel il faut apprendre tout le temps et où tout va extrêmement vite."
+ Isabelle Hilali – Datacraft
+
+:::
 
 « En data science, il est vraiment compliqué d’être à la pointe en termes de compétences. C’est un univers où l’on a besoin de partager. On a toujours l’image du geek qui est seul derrière son micro, mais en fait, si on veut être bon, il faut croiser les données et être imaginatif » explique Isabelle.
 
@@ -62,14 +78,8 @@ C’est un univers sur lequel il y a beaucoup de liberté puisque ce sont des m�
 Le Centre d’intelligence artificielle de la Sorbonne a été imaginé pour permettre de se retrouver pour collaborer. C’est un lieu ouvert. Et c’est là que Datacraft s’est implanté, entre la tour de Jussieu et le jardin des plantes.
 
 
-**Pour présenter atelier, I le contexte de cet atelier Axel a réalisé une vidéo Mastercraft que vous pouvez regarder [ici](https://www.youtube.com/watch?v=0xtPrTo-13o).**
-<p align="center"> <a href="http://www.youtube.com/watch?feature=player_embedded&v=0xtPrTo-13o
-" target="_blank"><img src="http://img.youtube.com/vi/0xtPrTo-13o/0.jpg" 
-alt="Présentation de datacraft par Isabelle" width="480" height="360" border="0" /></a> </p>
+<iframe width="85%" height="500px" src="https://www.youtube.com/embed/0xtPrTo-13o" alt="Présentation de datacraft par Isabelle" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Job : Travailler la présentation pour montrer que c'est une vidéo.**
-
-<!-- [<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg" width="50%">](https://youtu.be/<VIDEO ID>) -->
 
 
 

@@ -78,7 +78,7 @@ function HomePageBlock({title,img,description,href}){
         <img src={useBaseUrl(img)}/>
       </div>
     }
-    <p style={{color:"white", marginBottom: 0}}>{description}</p> 
+    <p style={{color:"black", marginBottom: 0}}>{description}</p> 
   </Col>
   )
 }
@@ -96,19 +96,18 @@ function Home() {
       >
        <header 
         className={clsx('hero hero--primary', styles.heroBanner)} 
-        style={{backgroundImage:`url(${useBaseUrl('img/HomePageIllustration.jpg')})`,backgroundSize:"cover",backgroundPosition: "bottom", minHeight:"calc(100vh - 200px)",zIndex:-1}}
+        style={{backgroundImage:`url(${useBaseUrl('img/HomePageIllustration_blank.png')})`,backgroundSize:"cover",backgroundPosition: "bottom", minHeight:"calc(100vh - 200px)",zIndex:-1}}
       >
         <div className={clsx("container", styles.card)}>
-          <h1 className="hero__subtitle" style={{color:"white",fontSize:"40px"}}>datacraft</h1>
-          <h1 className="hero__subtitle" style={{color:"white"}}>Welcome to the datacraft club blog!</h1>
-          <p className="hero__subtitle" style={{color:"white", marginBottom: 0}}>Inside the community of data scientists</p>
+          <h1 className="hero__subtitle" style={{color:"#0b7c39",fontSize:"40px"}}>datacraft <img src="img/datacraft_logo.png" alt=" " width="40" height="35"/></h1>
+          <h1 className="hero__subtitle" style={{color:"black"}}>Welcome to the datacraft club blog!</h1>
+          <p className="hero__subtitle" style={{color:"black", marginBottom: 0}}>Inside the community of data scientists</p>
         </div>
       </header>
       <main style={{ marginTop:"-40px" }}>
         <div className={clsx("container", styles.card)}>
           <Row>
             <HomePageBlock title="Blog" href="/blog" img="img/icons/Search engine _Monochromatic.svg" description="Browse our latest articles and experiments on Data Science & AI"/>
-            <HomePageBlock title="Documentation" href="/docs" img="img/icons/Spotlight _Monochromatic.svg" description="Learn about our convictions and tech best practices"/>
             <HomePageBlock title="Open Source" href="/opensource" img="img/icons/World wide web_Monochromatic.svg" description="Discover our open source contributions to the Data Science community"/>
           </Row>
         </div>

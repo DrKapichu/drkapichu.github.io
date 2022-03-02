@@ -16,8 +16,8 @@
   --ifm-color-primary-lightest: #FFFFFF;  /* #d7c378; */
   --ifm-font-color-base: #000000;          /* <-- Change the text/font color */
   --ifm-code-font-size: 95%;
-  --ifm-navbar-background-color: #004c23;    /* <-- Color of the navigation bar: https://imagecolorpicker.com/color-code/  */
-  --ifm-footer-background-color: #004c23;    /* <-- Color of the footer... Really poor choice so far... */
+  --ifm-navbar-background-color: #FFFFFF;    /* <-- Color of the navigation bar: https://imagecolorpicker.com/color-code/  */
+  --ifm-footer-background-color: #FFFFFF;    /* <-- Color of the footer... Really poor choice so far... */
   --ifm-background-color: #FFFFFF;  /* #33FF33; */
   --ifm-background-surface-color:var(--ifm-background-color);
 }
@@ -135,7 +135,7 @@ h1{
   margin: auto;
   text-align: center;
   font-family: arial;          /* <-- This is the general theme color of the shortcard - see Blog page */
-  background-color: #32475a;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+  background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
   border-radius: 0px;
   height:100%;
 }
@@ -157,7 +157,7 @@ h1{
 }
 
 html[data-theme="dark"]{             /* <-- Background color of all pages... | Previous setting by Theo A.:  #16293c */
-  --ifm-background-color: #32475a;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+  --ifm-background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
 }
 
 .docusaurus-highlight-code-line {
@@ -189,7 +189,7 @@ html[data-theme="dark"]{             /* <-- Background color of all pages... | P
 
 
 .longcard{                     /* <-- This is the general theme color of the Longcard - see Open Source page */
-  background-color: #32475a;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+  background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
   margin-bottom: 40px;
   padding-bottom:0px !important;
   min-height:200px;

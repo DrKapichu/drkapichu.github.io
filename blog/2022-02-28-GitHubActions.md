@@ -13,6 +13,8 @@ keywords:
     - Kapichu
 ---
 
+(setq markdown-css-paths '("./custom_blog.css"))
+
 My fucking test
 
 This is a fucking new post with GitHub automatic Actions!
@@ -48,3 +50,24 @@ This is a new day, a new year, a new life.
 Another brick in the wall..
 Tada
 
+
+<!-- <p style="border:3px; border-style:solid; border-color:#FF0000; padding: 1em;">First example with text surrounded by a red border.<br>This example also has multiple lines.</p> -->
+
+<link href="./custom_blog.css" rel="stylesheet"></link>
+
+<p class="my_style">Ceci est un test </p>
+
+
+
+<p class="red">red fucking text</p>
+
+
+
+
+<my_style>this is a test</my_style>
+
+<script src="https://gist.github.com/ollytheninja/8498790.js"></script>
+
+--- 
+
+<abbr> this is a test </abbr>

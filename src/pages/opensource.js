@@ -26,7 +26,7 @@ function Home() {
             </div>
         </div>
       <section>
-          <LongCard category="Python library" date="2021-09" title="EthicalAI" description="Ethical AI toolkit for Data Scientists to study, understand and mitigate bias in your datasets and algorithms in development and production - Developed in collaboration with Danone, Sorbonne University within Data Scientist club Datacraft" href="https://github.com/datacraft-paris/ethical-ai-toolkit" src="img/opensource/ethicalai.png"/>
+          <LongCard category="Python library" date="2021-09" title="EthicalAI" description="Ethical AI toolkit for Data Scientists to study, understand and mitigate bias in your datasets and algorithms in development and production - Developed in collaboration with Danone, Sorbonne University within Data Scientist club Datacraft" href="https://github.com/datacraft-paris/ethical-ai-toolkit" src="img/opensource/ethicalai_2.png"/>
       </section>
     </div>
   
