@@ -55,11 +55,11 @@ Tada
 
 <link href="./custom_blog.css" rel="stylesheet"></link>
 
-<p class="my_style">Ceci est un test </p>
+<p className="my_style">Ceci est un test </p>
 
 
 
-<p class="red">red fucking text</p>
+<p className="red">red fucking text</p>
 
 
 

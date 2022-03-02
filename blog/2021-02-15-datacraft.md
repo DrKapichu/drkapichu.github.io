@@ -78,7 +78,7 @@ C’est un univers sur lequel il y a beaucoup de liberté puisque ce sont des m�
 Le Centre d’intelligence artificielle de la Sorbonne a été imaginé pour permettre de se retrouver pour collaborer. C’est un lieu ouvert. Et c’est là que Datacraft s’est implanté, entre la tour de Jussieu et le jardin des plantes.
 
 
-<iframe width="85%" height="500px" src="https://www.youtube.com/embed/0xtPrTo-13o" alt="Présentation de datacraft par Isabelle" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="85%" height="500px" src="https://www.youtube.com/embed/0xtPrTo-13o" alt="Présentation de datacraft par Isabelle" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 
 
