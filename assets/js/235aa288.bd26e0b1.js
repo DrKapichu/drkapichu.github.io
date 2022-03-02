@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[565],{505:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/making-it-work","name":"Making it work","count":1,"permalink":"/blog/tags/making-it-work"}')}}]);
