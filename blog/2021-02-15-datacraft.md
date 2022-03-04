@@ -47,10 +47,11 @@ Un club Data Science et IA ? Là où beaucoup veulent absolument qu’on remplac
 
 ## Datacraft : un club data science et IA installé au cœur de La Sorbonne
 
-<!-- ![image](./img/2021-02-15-datacraft/datacraft-scai.png "J’ai rencontré Isabelle Hilali dans ses locaux du SCAI (Sorbonne Center for Artificial Intelligence) qui héberge Datacraft, le club de la data science et de l’IA qu’elle a créé")
-**il manque une légende pour cette image** -->
+![image](./img/2021-02-15-datacraft/datacraft-scai.png "J’ai rencontré Isabelle Hilali dans ses locaux du SCAI (Sorbonne Center for Artificial Intelligence) qui héberge Datacraft, le club de la data science et de l’IA qu’elle a créé")
+**il manque une légende pour cette image**
 
-<figure>
+
+<!-- <figure>
   <img width="85%" height="500px" src="./img/2021-02-15-datacraft/datacraft-scai.png" alt="datacraft" />
   <figcaption>J’ai rencontré Isabelle Hilali dans ses locaux du SCAI (Sorbonne Center for Artificial Intelligence) qui héberge Datacraft, le club de la data science et de l’IA qu’elle a créé</figcaption>
 </figure>
@@ -59,15 +60,12 @@ Un club Data Science et IA ? Là où beaucoup veulent absolument qu’on remplac
     <img src="./img/2021-02-15-datacraft/datacraft-scai.png"
          alt="datacraft" />
     <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
-</figure>
+</figure> -->
 
 
-:::citation
+> "J’ai observé que l’univers de la data science et des data scientists est un domaine sur lequel il faut apprendre tout le temps et où tout va extrêmement vite."
+> Isabelle Hilali – Datacraft
 
- "J’ai observé que l’univers de la data science et des data scientists est un domaine sur lequel il faut apprendre tout le temps et où tout va extrêmement vite."
- Isabelle Hilali – Datacraft
-
-:::
 
 « En data science, il est vraiment compliqué d’être à la pointe en termes de compétences. C’est un univers où l’on a besoin de partager. On a toujours l’image du geek qui est seul derrière son micro, mais en fait, si on veut être bon, il faut croiser les données et être imaginatif » explique Isabelle.
 
