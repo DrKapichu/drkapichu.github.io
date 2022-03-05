@@ -13,7 +13,7 @@
             <guid>html</guid>
             <pubDate>Wed, 02 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Ceci est une aide-mémoire pour liste les possibilités de styles dans du MarkDown]]></description>
-            <content:encoded><![CDATA[<p>Ceci est un lien vers un site qui liste les balises HTML avec des exemples (!!) : <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img">https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img</a></p><p>Essentially stupid thing you can find anywhere on the web because they&#x27;re basics. But you&#x27;re lazy man!!</p><h1>Ceci est une liste avec un titre</h1>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Ceci est un lien vers un site qui liste les balises HTML avec des exemples (!!) : <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img">https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img</a></p><p>Essentially stupid thing you can find anywhere on the web because they&#x27;re basics. But you&#x27;re lazy man!!</p><h1>Ceci est une liste avec un titre</h1><h2>Etre un bénévole Data For Good</h2><p>Mais en pratique être bénévole cela veut dire : </p><ul><li>Faire partie d&#x27;une communauté tech engagée</li><li>Participer aux saisons d&#x27;accélération</li><li>... Bref, Data For Good est une communauté libre et indépendante, tu peux proposer ce que tu veux !</li></ul><p>Pour plus de détails tu peux lire la page <a href="https://dataforgood.slite.com/p/channel/F9UR6bhuYCPAtvfLDje8Zc/notes/t1KTZaDgs">suivante</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[This is a test for the actions]]></title>
