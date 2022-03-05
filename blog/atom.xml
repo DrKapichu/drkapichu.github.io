@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://drkapichu.github.io/blog</id>
     <title>datacraft blog Blog</title>
-    <updated>2022-02-28T00:00:00.000Z</updated>
+    <updated>2022-03-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://drkapichu.github.io/blog"/>
     <subtitle>datacraft blog Blog</subtitle>
     <icon>https://drkapichu.github.io/img/datacraft_logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[A list of possible styles (stolen everywhere)]]></title>
+        <id>html</id>
+        <link href="https://drkapichu.github.io/blog/html"/>
+        <updated>2022-03-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ceci est une aide-mémoire pour liste les possibilités de styles dans du MarkDown]]></summary>
+        <content type="html"><![CDATA[<p>Ceci est un lien vers un site qui liste les balises HTML avec des exemples (!!) : <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img">https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img</a></p><p>Essentially stupid thing you can find anywhere on the web because they&#x27;re basics. But you&#x27;re lazy man!!</p><h1>Ceci est une liste avec un titre</h1>]]></content>
+        <author>
+            <name>Julien Guyot</name>
+            <uri>https://datacraft.paris/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[This is a test for the actions]]></title>
         <id>testou</id>

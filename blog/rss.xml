@@ -4,9 +4,17 @@
         <title>datacraft blog Blog</title>
         <link>https://drkapichu.github.io/blog</link>
         <description>datacraft blog Blog</description>
-        <lastBuildDate>Mon, 28 Feb 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[A list of possible styles (stolen everywhere)]]></title>
+            <link>https://drkapichu.github.io/blog/html</link>
+            <guid>html</guid>
+            <pubDate>Wed, 02 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ceci est une aide-mémoire pour liste les possibilités de styles dans du MarkDown]]></description>
+            <content:encoded><![CDATA[<p>Ceci est un lien vers un site qui liste les balises HTML avec des exemples (!!) : <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img">https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img</a></p><p>Essentially stupid thing you can find anywhere on the web because they&#x27;re basics. But you&#x27;re lazy man!!</p><h1>Ceci est une liste avec un titre</h1>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[This is a test for the actions]]></title>
             <link>https://drkapichu.github.io/blog/testou</link>
