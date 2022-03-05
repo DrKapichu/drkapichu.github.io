@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[675],{1638:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/css-styles","name":"CSS styles","count":1,"permalink":"/blog/tags/css-styles"}')}}]);
