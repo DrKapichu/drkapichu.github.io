@@ -19,6 +19,7 @@ keywords:
 
 ([source](https://numenta.com/blog/2019/08/30/case-for-sparsity-in-neural-networks-part-1-pruning) de l'image de présentaion)
 
+---
 
 ## Qu’est ce que le Few Shot Learning (FSL) ? - titre alternatif : Sujet du jour : le Few Shot Learning (FSL)
 
@@ -49,7 +50,17 @@ Concrètement, reprenons notre exemple des évaluations des restaurants, la mét
  - y associer aléatoirement un pattern,
  - soumettre le tout au PLM qui va le compléter en choisissant un verbalizer.
 
-![](./img/2022-02-04-MindshakeTime/PET.png)
+<!-- ![image](./img/2022-02-04-MindshakeTime/PET.png "Schema of a basic PET"){ width=50 height=50 } -->
+
+![image](./img/2022-02-04-MindshakeTime/PET.png "Schema of a basic PET"){:.image-left}
+
+<!-- style="float: left"; margin-right: 10em; height="25%" width="25%"} -->
+
+<!-- <img src="./img/2022-02-04-MindshakeTime/PET.png" alt="A cute kitten"
+    title="A cute kitten" width="100" height="100" /> -->
+
+<!-- [<img src="./img/2022-02-04-MindshakeTime/PET.png" width="50"/>](./img/2022-02-04-MindshakeTime/PET.png) -->
+
 
 Par exemple (voir Fig. 1), avec le commentaire “Best pizza ever!”, on construit la phrase à trou : “Best pizza ever! It was … .” que le PLM va compléter avec ‘great’ avec une confiance de 0.8, sachant que ce mot est noté +1.
 

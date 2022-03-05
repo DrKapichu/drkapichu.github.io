@@ -7,22 +7,23 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #d7c378;       /* <-- Color that appears in case an element is missing; I chose some golden (gray=#8d8b87) */
-  --ifm-color-primary-dark: #00ADD0;
-  --ifm-color-primary-darker:#00ADD0;
-  --ifm-color-primary-darkest: #00ADD0;
-  --ifm-color-primary-light: #d7c378;
-  --ifm-color-primary-lighter: #d7c378;
-  --ifm-color-primary-lightest: #d7c378;
+  --ifm-color-primary: #15db69;  /* #d7c378; */      /* <-- Color for clickable links (internal and external links, emails...) AND missing elements; datacraft style #15db69 (gray=#8d8b87) */
+  --ifm-color-primary-dark: #FFFFFF;  /* #00ADD0; */
+  --ifm-color-primary-darker: #FFFFFF;  /* #00ADD0; */
+  --ifm-color-primary-darkest: #FFFFFF;  /* #00ADD0; */
+  --ifm-color-primary-light: #FFFFFF;  /* #d7c378; */
+  --ifm-color-primary-lighter: #FFFFFF;  /* #d7c378; */
+  --ifm-color-primary-lightest: #FFFFFF;  /* #d7c378; */
+  --ifm-font-color-base: #000000;          /* <-- Change the text/font color */
   --ifm-code-font-size: 95%;
-  --ifm-navbar-background-color: #25be8e;    /* <-- Color of the navigation bar: https://imagecolorpicker.com/color-code/  */
-  --ifm-footer-background-color: #26be8e;    /* <-- Color of the footer... Really poor choice so far... */
-  --ifm-background-color:#33FF33;
+  --ifm-navbar-background-color: #FFFFFF;    /* <-- Color of the navigation bar: https://imagecolorpicker.com/color-code/  */
+  --ifm-footer-background-color: #FFFFFF;    /* <-- Color of the footer... Really poor choice so far... */
+  --ifm-background-color: #FFFFFF;  /* #33FF33; */
   --ifm-background-surface-color:var(--ifm-background-color);
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(11, 124, 57);
+  background-color: rgb(11, 124, 57);  /* <-- Change this here to check the effect */
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
@@ -76,6 +77,8 @@
   display:block;
 }
 
+
+/* Image style inside blog posts */
 .blog-article-custom img{
   max-width:75%;
   display:block;
@@ -114,21 +117,25 @@ h1{
   color:var(--ifm-color-primary);
 }
 
+.datacraft-green{
+  color: #15db69;
+}
+
 .hero__title{
   font-size:40px;
   text-align: center;
 }
 
-.hero--blue{
-  background-color:#0b7c39;  /* <-- Background color of all pages, general setting that may be changed locally to a page... | This is the previous color setting by Theo Alves:  #16293c */
+.hero--blue{    /* <-- Background color of something, I don't know what... */
+  background-color: #FFFFFF   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
 }
 .card {
   /* box-shadow: 0 4px 8px 0 rgba(223, 18, 18, 0.2); */
   /* max-width: 300px; */
   margin: auto;
   text-align: center;
-  font-family: arial;
-  background-color:#32475a;
+  font-family: arial;          /* <-- This is the general theme color of the shortcard - see Blog page */
+  background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
   border-radius: 0px;
   height:100%;
 }
@@ -149,8 +156,8 @@ h1{
   text-align: left;
 }
 
-html[data-theme="dark"]{
-  --ifm-background-color:#0b7c39;  /* <-- Background color of all pages, general setting that may be changed locally to a page... | This is the previous color setting by Theo Alves:  #16293c */
+html[data-theme="dark"]{             /* <-- Background color of all pages... | Previous setting by Theo A.:  #16293c */
+  --ifm-background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
 }
 
 .docusaurus-highlight-code-line {
@@ -181,8 +188,8 @@ html[data-theme="dark"]{
 
 
 
-.longcard{
-  background-color: #32475a;          /* <-- This is the general theme color of the Longcard */
+.longcard{                     /* <-- This is the general theme color of the Longcard - see Open Source page */
+  background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
   margin-bottom: 40px;
   padding-bottom:0px !important;
   min-height:200px;
@@ -193,8 +200,9 @@ html[data-theme="dark"]{
   margin-bottom: 30px;
 }
 
-.shortcard{
-  background-color: #32475a;          /* <-- This is the general theme color of the shortcard */
+
+.shortcard{                    /* <-- This is the general theme color of the shortcard - I don't know where it's applied */
+  background-color: #5a3257;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
   padding-bottom:0px !important;
   margin-right:10px;
   height:100%;

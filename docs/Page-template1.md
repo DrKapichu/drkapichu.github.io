@@ -16,9 +16,9 @@ If you use 'href' the link will open in a new tab, while if you use 'to'
 ## The is a new title
 
 Below I create a bullet point list
-- <span className="gold">Colored title of the point</span> - description of this point with a long paragraph.
-- <span className="gold">The gold style has been defined in the css.custom</span> - item 2.
-- <span className="gold">Third point here</span> - item 3.
+- <span className="datacraft-green">Colored title of the point</span> - description of this point with a long paragraph.
+- <span className="datacraft-green">The gold style has been defined in the css.custom</span> - item 2.
+- <span className="datacraft-green">Third point here</span> - item 3.
 
 
 Here is an image imported from a URL. I should check for formating options.

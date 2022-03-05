@@ -27,6 +27,10 @@
     "react-inline-script": "^1.2.0",
     "yarn": "^1.22.10"
   },
+  "engines" : { 
+    "npm" : ">=7.0.0",
+    "node" : ">=12.0.0"
+  },
   "browserslist": {
     "production": [
       ">0.5%",
