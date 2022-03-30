@@ -45,7 +45,6 @@ To that end, a very first step was to make sure we’d not reinvent the wheel, a
 
 [^1] Source: https://www.apqc.org/blog/what-are-four-types-benchmarking  
 [^2] Source: https://en.wikipedia.org/wiki/Hackathon   
-
 **TODO: Decide whether these footnotes stay here or go somewhere else**
 
 
@@ -56,15 +55,15 @@ Even though all of us were entitled as “Data Scientists”, we all came from d
 
 
 <table>
-<tr><th>   <strong>Criteria</strong>                               </th><th>    <strong>Description</strong>                                                                                                                          </th><th>   <strong>Scale</strong>                        </th>  </tr>
-<tr><td textAlign="center" background-color="white"> Installation  </td><td textAlign="center" background-color="white"> How easy is it to get started?                                                                               </td><td textAlign="center" background-color="white"> 1.5 </td>  </tr>
-<tr><td textAlign="center" background-color="white"> Usability     </td><td textAlign="center" background-color="white"> How easy to use is the API?                                                                                  </td><td textAlign="center" background-color="white"> 1.5 </td>  </tr>
-<tr><td textAlign="center" background-color="white"> Documentation </td><td textAlign="center" background-color="white"> How well documented is the library?                                                                          </td><td textAlign="center" background-color="white"> 1.5 </td>  </tr>
-<tr><td textAlign="center" background-color="white"> Completeness  </td><td textAlign="center" background-color="white"> Does the library perform everything it is supposed to?                                                       </td><td textAlign="center" background-color="white"> 1.5 </td>  </tr>
-<tr><td textAlign="center" background-color="white"> Reliability   </td><td textAlign="center" background-color="white"> Does the library seem reliable? (code quality, tests, …)                                                     </td><td textAlign="center" background-color="white"> 1.5 </td>  </tr>
-<tr><td textAlign="center" background-color="white"> Legitimacy    </td><td textAlign="center" background-color="white"> Is the library popular within the community? (number of stars on GitHub, latest commit, number of issues, …) </td><td textAlign="center" background-color="white"> 1.5 </td>  </tr>
-<tr><td textAlign="center" background-color="white"> Future        </td><td textAlign="center" background-color="white"> Gut instinct - would you trust it and use it in real projects?                                               </td><td textAlign="center" background-color="white"> Y/N </td>  </tr>
-<tr><td textAlign="center" background-color="white"> Weaknesses    </td><td textAlign="center" background-color="white"> What is currently missing?                                                                                   </td><td textAlign="center" background-color="white"> N/A </td>  </tr>
+<tr><th>   <strong>Criteria</strong>                  </th><th>    <strong>Description</strong>                                                                                                             </th><th>   <strong>Scale</strong>           </th>  </tr>
+<tr><td align="center" bgcolor="white"> Installation  </td><td align="center" bgcolor="white"> How easy is it to get started?                                                                               </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Usability     </td><td align="center" bgcolor="white"> How easy to use is the API?                                                                                  </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Documentation </td><td align="center" bgcolor="white"> How well documented is the library?                                                                          </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Completeness  </td><td align="center" bgcolor="white"> Does the library perform everything it is supposed to?                                                       </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Reliability   </td><td align="center" bgcolor="white"> Does the library seem reliable? (code quality, tests, …)                                                     </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Legitimacy    </td><td align="center" bgcolor="white"> Is the library popular within the community? (number of stars on GitHub, latest commit, number of issues, …) </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Future        </td><td align="center" bgcolor="white"> Gut instinct - would you trust it and use it in real projects?                                               </td><td align="center" bgcolor="white"> Y/N </td>  </tr>
+<tr><td align="center" bgcolor="white"> Weaknesses    </td><td align="center" bgcolor="white"> What is currently missing?                                                                                   </td><td align="center" bgcolor="white"> N/A </td>  </tr>
 </table>
 
 
@@ -184,7 +183,7 @@ At this point in time, we had discovered very interesting libraries, some of the
 
 This is what will be tackled in the third article of this series. We’ll introduce Dalex, another library that will be used as a foundation to derive (our interpretation of) the whole reasoning when exposed to fairness / ethical concerns.
 
----
+
 
 ## Reference
 
