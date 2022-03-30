@@ -55,34 +55,22 @@ Hackathons usually involve teams that compete on the “same topic” for 2 to 3
 Even though all of us were entitled as “Data Scientists”, we all came from different structures, different backgrounds, and different (coding) habits. That diversity definitely triggered (and still does) great discussions and perspectives along the initiative. Still, an important step during the benchathon was to settle on an interpretation grid that would make the outcome as reusable and general as possible, and as unbiased as possible - in line with the topic then :). A few criteria were identified:
 
 
-**TODO: set all rows to white**
+**TODO: set all rows to white color**
 
 
-| Criteria  | Description  | Scale  |  
-|:-------------:|:----------------:|:----------:|  
-| Installation  | How easy is it to get started? | 1.5        |  
-| Usability     | How easy to use is the API? | 1.5        |  
-| Documentation | How well documented is the library? | 1.5        |  
-| Completeness  | Does the library perform everything it is supposed to? | 1.5        |  
-| Reliability   | Does the library seem reliable? (code quality, tests, …) | 1.5        |  
-| Legitimacy    | Is the library popular within the community? (number of stars on GitHub, latest commit, number of issues, …) | 1.5        |  
-| Future        | Gut instinct - would you trust it and use it in real projects? | Y/N        |  
-| Weaknesses    | What is currently missing? | N/A        |  
+| **Criteria**      | **Description**                                                                                                  | **Scale**      |  
+|:-----------------:|:----------------------------------------------------------------------------------------------------------------:|:--------------:|  
+| Installation      | How easy is it to get started?                                                                                   | 1.5            |  
+| Usability         | How easy to use is the API?                                                                                      | 1.5            |  
+| Documentation     | How well documented is the library?                                                                              | 1.5            |  
+| Completeness      | Does the library perform everything it is supposed to?                                                           | 1.5            |  
+| Reliability       | Does the library seem reliable? (code quality, tests, …)                                                         | 1.5            |  
+| Legitimacy        | Is the library popular within the community? (number of stars on GitHub, latest commit, number of issues, …)     | 1.5            |  
+| Future            | Gut instinct - would you trust it and use it in real projects?                                                   | Y/N            |  
+| Weaknesses        | What is currently missing?                                                                                       | N/A            |  
 
 
-<div class="ox-hugo-table my-red-bordered-table">
-<div class="table-caption">
-  <span class="table-number">Table 4</span>:
-  Table with caption, class and CSS attributes specified
-</div>
 
-| h1  | h2  | h3  |
-|-----|-----|-----|
-| abc | def | ghi |
-| abc | def | ghi |
-| abc | def | ghi |
-
-</div>
 
 That being set, what was important was also to pace the day, so that despite the fact that small groups worked independently, we always kept an overall coherence and dynamics. It meant:
  - Mini sprints of 1,5 hours
@@ -212,12 +200,3 @@ This is what will be tackled in the third article of this series. We’ll introd
 [7] - [A. Agarwal, M. Dudik, and Z. Wu (2019) - Fair Regression: Quantitative Definitions and Reduction-based Algorithms - International Conference on Machine Learning](https://arxiv.org/abs/1905.12843)  
 [8] - M. Hardt, E. Price, and N. Srebro, "Equality of Opportunity in Supervised Learning" Conference on Neural Information Processing Systems, 2016.  
 [9] - G. Pleiss, M. Raghavan, F. Wu, J. Kleinberg, and K. Q. Weinberger, "On Fairness and Calibration," Conference on Neural Information Processing Systems, 2017.  
-
-
-
-**TODO: picture with legend to add**  
-**TODO: picture with legend to add**  
-**TODO: picture with legend to add**  
-**TODO: picture with legend to add**  
-**TODO: picture with legend to add**  
-**TODO: picture with legend to add**  
