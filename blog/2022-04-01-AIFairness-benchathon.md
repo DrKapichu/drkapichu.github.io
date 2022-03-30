@@ -39,10 +39,15 @@ This article casts a light on the benchathon - definition below - in which the g
 At this stage of our “fairness journey”, we had a decent high level understanding of what fairness could imply in real life. It was then the right time to start acting concrete: try and derive a pragmatic methodology, even if it implied implementing our own routines.
 
 To that end, a very first step was to make sure we’d not reinvent the wheel, and we’d plainly benefit from existing open source contributions. This happened during a one-day benchathon. If you work in tech, you may already be familiar with the following two notions:
- - Benchmark: *gathering and comparing qualitative information about how an activity is conducted through people, processes, and technology*
- - Hackathon: *[short] event [...] in which computer programmers and others involved in software development [...] collaborate intensively on software projects*
+ - Benchmark: *gathering and comparing qualitative information about how an activity is conducted through people, processes, and technology[^1]*
+ - Hackathon: *[short] event [...] in which computer programmers and others involved in software development [...] collaborate intensively on software projects[^2]*
 
-**TODO: two footnotes here**
+
+[^1] Source: https://www.apqc.org/blog/what-are-four-types-benchmarking  
+[^2] Source: https://en.wikipedia.org/wiki/Hackathon   
+
+
+**TODO: Decide whether these footnotes stay here or go somewhere else**
 
 Hackathons usually involve teams that compete on the “same topic” for 2 to 3 days. Because we were limited in time - 1 day, rather than focusing all on the same “thing”, we decided to make the most out of the presence of 9 data scientists: we shared and split between us the technical analysis of several fairness open source libraries - [AIF360](https://github.com/Trusted-AI/AIF360), [Shapash](https://github.com/MAIF/shapash), [Aequitas](https://github.com/dssg/aequitas), [What if tool](https://research.google/teams/brain/pair/) **TODO: j'ai l'impression que ce lien n'est pas le bon**, [Fairlearn](https://fairlearn.org/). Hence the concept of benchathon.
 
@@ -50,11 +55,11 @@ Hackathons usually involve teams that compete on the “same topic” for 2 to 3
 Even though all of us were entitled as “Data Scientists”, we all came from different structures, different backgrounds, and different (coding) habits. That diversity definitely triggered (and still does) great discussions and perspectives along the initiative. Still, an important step during the benchathon was to settle on an interpretation grid that would make the outcome as reusable and general as possible, and as unbiased as possible - in line with the topic then :). A few criteria were identified:
 
 
-**TODO: table to insert here**
+**TODO: set all rows to white**
 
 
-| **Criteria**  | **Description**  | **Scale**  |  
-|---------------|------------------|------------|  
+| Criteria  | Description  | Scale  |  
+|:-------------:|:----------------:|:----------:|  
 | Installation  | How easy is it to get started? | 1.5        |  
 | Usability     | How easy to use is the API? | 1.5        |  
 | Documentation | How well documented is the library? | 1.5        |  
@@ -63,6 +68,21 @@ Even though all of us were entitled as “Data Scientists”, we all came from d
 | Legitimacy    | Is the library popular within the community? (number of stars on GitHub, latest commit, number of issues, …) | 1.5        |  
 | Future        | Gut instinct - would you trust it and use it in real projects? | Y/N        |  
 | Weaknesses    | What is currently missing? | N/A        |  
+
+
+<div class="ox-hugo-table my-red-bordered-table">
+<div class="table-caption">
+  <span class="table-number">Table 4</span>:
+  Table with caption, class and CSS attributes specified
+</div>
+
+| h1  | h2  | h3  |
+|-----|-----|-----|
+| abc | def | ghi |
+| abc | def | ghi |
+| abc | def | ghi |
+
+</div>
 
 That being set, what was important was also to pace the day, so that despite the fact that small groups worked independently, we always kept an overall coherence and dynamics. It meant:
  - Mini sprints of 1,5 hours
@@ -88,7 +108,12 @@ If you are further interested in the exhaustive findings on the five libraries t
 In a nutshell: great project, but not that relevant (yet?) for fairness topics.
 
 
-**TODO: picture with legend to add**
+
+![Screenshot of Shapash.](./img/2022-04-01-AIFairness-benchathon/Shapash.jpg "Screenshot of Shapash.")
+<div style={{'textAlign':'center', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '5em'}}>
+Screenshot of Shapash. <a target="_blank" rel="noopener noreferrer" href="https://github.com/MAIF/shapash">Credits</a>.
+</div>
+
 
 
 ### What if tool
@@ -97,7 +122,11 @@ In a nutshell: great project, but not that relevant (yet?) for fairness topics.
 In a nutshell: great interface. However, counterfactual analysis is only one (important) feature among the different aspects related to fairness, which in turn does not justify a lock-in with that specific tool.
 
 
-**TODO: picture with legend to add**
+
+![Screenshot of What-if tool.](./img/2022-04-01-AIFairness-benchathon/What_if_tool.jpg "Screenshot of What-if tool.")
+<div style={{'textAlign':'center', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '5em'}}>
+Screenshot of What-if tool. <a target="_blank" rel="noopener noreferrer" href="https://github.com/pair-code/what-if-tool">Credits</a>.
+</div>
 
 
 ### Aequitas
@@ -106,20 +135,29 @@ In a nutshell: great interface. However, counterfactual analysis is only one (im
 In a nutshell: Aequitas is a tool that has been available for quite some time now, but that does not benefit from a living community. To be kept under the radar (or contribute to!).
 
 
-**TODO: picture with legend to add**
+
+![Screenshot of Aequitas web application.](./img/2022-04-01-AIFairness-benchathon/Aequitas.jpg "Screenshot of Aequitas web application.")
+<div style={{'textAlign':'center', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '5em'}}>
+Screenshot of Aequitas web application. <a target="_blank" rel="noopener noreferrer" href="http://aequitas.dssg.io/">Credits</a>.
+</div>
+
 
 
 ### Fairlearn
 [Fairlearn](https://fairlearn.org/) is an open source library maintained by diverse contributors (from Microsoft, Zalando, …). It aims at tackling each step of the fairness value chain. It implements fairness metrics, of which you have a summary below:
 
 
-**TODO: picture with legend to add**
+
+![Figure complemented by datacraft's initiative](./img/2022-04-01-AIFairness-benchathon/Fairlearn-1.jpg "Figure complemented by datacraft's initiative")
+<div style={{'textAlign':'center', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '5em'}}>
+Credits: <a href="#reference">[1]</a> - complemented by datacraft’s ethical initiative.
+</div>
 
 
 Fairlearn implements mitigation techniques:
  - Pre-processing methods: alter a training set before training a model (example in fairlearn: removing sensitive correlations)
- - In-processing method: train a model (or a sequence of models) accounting for fairness constraints (example in fairlearn: exponentiated gradient [2])
- - Post-processing methods: alter predictions to account for fairness constraints, once a model is trained (example in fairlearn: threshold optimization post processing algorithm [3])
+ - In-processing method: train a model (or a sequence of models) accounting for fairness constraints (example in fairlearn: exponentiated gradient [[2]](#reference))
+ - Post-processing methods: alter predictions to account for fairness constraints, once a model is trained (example in fairlearn: threshold optimization post processing algorithm [[3]](#reference))
 
 
 It also tries to go beyond the usual binary classification problem, which is the usual go-to when uncovering the fairness topic (e.g. giving a try at regression). However, making our way through the “get started” procedure or the documentation - yet well designed and appealing, was no easy task. Note that the library also comes with nice dashboards that allow, among others, model comparison.
@@ -127,14 +165,18 @@ It also tries to go beyond the usual binary classification problem, which is the
 In a nutshell: promising and active library for fairness topics. Accessibility could be improved. To definitely keep an eye on (or contribute to!).
 
 
-**TODO: picture with legend to add**
+
+![Screenshot of the Fairlearn dashboard.](./img/2022-04-01-AIFairness-benchathon/Fairlearn-2.jpg "Screenshot of the Fairlearn dashboard.")
+<div style={{'textAlign':'center', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '5em'}}>
+Screenshot of the Fairlearn dashboard. <a target="_blank" rel="noopener noreferrer" href="https://opendatascience.com/how-to-assess-ai-systems-fairness-and-mitigate-any-observed-unfairness-issues/">Credits</a>.
+</div>
 
 
 ### AIF360
 [AIF360](http://aif360.mybluemix.net/) is an open source library developed by IBM. From our perspective, and before doing this initiative, this library was considered as the go-to for tackling fairness topics. It comes with an online tool, implements a wide range of mitigation techniques:
- - Pre-processing methods among which reweighting [4], or learning fair representations [5]
- - In-Processing methods: grid search reduction [6, 7]
- - Post-processing methods: equalized odds postprocessing [8, 9]
+ - Pre-processing methods among which reweighting [[4]](#reference), or learning fair representations [[5]](#reference)
+ - In-Processing methods: grid search reduction [[6, 7]](#reference)
+ - Post-processing methods: equalized odds postprocessing [[8, 9]](#reference)
 
 It also benefits from a wide community, and comes with a user-friendly web interface. 
 
@@ -143,7 +185,11 @@ However rich in terms of features / mitigation techniques, the documentation is 
 In a nutshell: AIF360 is a very rich and mature ecosystem. Accessibility is however currently an obstacle to its full exploitation.
 
 
-**TODO: picture with legend to add**
+
+![Screenshot of AIF360.](./img/2022-04-01-AIFairness-benchathon/AIF360.jpg "Screenshot of AIF360.")
+<div style={{'textAlign':'center', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '5em'}}>
+Screenshot of AIF360. <a target="_blank" rel="noopener noreferrer" href="https://aif360.mybluemix.net/">Credits</a>.
+</div>
 
 
 ## Conclusion
@@ -154,3 +200,24 @@ At this point in time, we had discovered very interesting libraries, some of the
 This is what will be tackled in the third article of this series. We’ll introduce Dalex, another library that will be used as a foundation to derive (our interpretation of) the whole reasoning when exposed to fairness / ethical concerns.
 
 
+
+## Reference
+
+[1] - Credits: Data Robot – Trusted AI 102: A Guide to Building Fair and Unbiased AI Systems  
+[2] - [Agarwal et al. (2018)  A Reductions Approach to Fair Classification](https://arxiv.org/abs/1803.02453)  
+[3] - [M. Hardt, E. Price, N. Srebro (2018) - Equality of Opportunity in Supervised Learning](https://arxiv.org/pdf/1610.02413.pdf)  
+[4] - F. Kamiran and T. Calders, "Data Preprocessing Techniques for Classification without Discrimination," Knowledge and Information Systems, 2012  
+[5] - R. Zemel, Y. Wu, K. Swersky, T. Pitassi, and C. Dwork, "Learning Fair Representations." International Conference on Machine Learning, 2013  
+[6] - [A. Agarwal, A. Beygelzimer, M. Dudik, J. Langford, and H. Wallach (2018) - A Reductions Approach to Fair Classification - International Conference on Machine Learning](https://arxiv.org/abs/1803.02453)  
+[7] - [A. Agarwal, M. Dudik, and Z. Wu (2019) - Fair Regression: Quantitative Definitions and Reduction-based Algorithms - International Conference on Machine Learning](https://arxiv.org/abs/1905.12843)  
+[8] - M. Hardt, E. Price, and N. Srebro, "Equality of Opportunity in Supervised Learning" Conference on Neural Information Processing Systems, 2016.  
+[9] - G. Pleiss, M. Raghavan, F. Wu, J. Kleinberg, and K. Q. Weinberger, "On Fairness and Calibration," Conference on Neural Information Processing Systems, 2017.  
+
+
+
+**TODO: picture with legend to add**  
+**TODO: picture with legend to add**  
+**TODO: picture with legend to add**  
+**TODO: picture with legend to add**  
+**TODO: picture with legend to add**  
+**TODO: picture with legend to add**  
