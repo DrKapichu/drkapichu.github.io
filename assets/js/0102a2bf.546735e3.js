@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[722],{4626:function(t){t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/teleconsultation","name":"T\xe9l\xe9consultation","count":1,"permalink":"/blog/tags/teleconsultation"}')}}]);

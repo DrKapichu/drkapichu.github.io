@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[736],{1850:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/styles-in-md","name":"Styles in MD","count":1,"permalink":"/blog/tags/styles-in-md"}')}}]);

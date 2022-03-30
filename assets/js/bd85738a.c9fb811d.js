@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[6746],{3118:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/tag-3","name":"TAG3","count":1,"permalink":"/blog/tags/tag-3"}')}}]);

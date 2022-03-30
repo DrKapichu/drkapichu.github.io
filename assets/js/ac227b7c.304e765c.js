@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[309],{2548:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/im-sexy-and-i-know-it","name":"I\'m sexy and I know it","count":1,"permalink":"/blog/tags/im-sexy-and-i-know-it"}')}}]);
