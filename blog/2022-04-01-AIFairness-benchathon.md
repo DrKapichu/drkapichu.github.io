@@ -45,9 +45,8 @@ To that end, a very first step was to make sure we’d not reinvent the wheel, a
 
 [^1] Source: https://www.apqc.org/blog/what-are-four-types-benchmarking  
 [^2] Source: https://en.wikipedia.org/wiki/Hackathon   
-
-
 **TODO: Decide whether these footnotes stay here or go somewhere else**
+
 
 Hackathons usually involve teams that compete on the “same topic” for 2 to 3 days. Because we were limited in time - 1 day, rather than focusing all on the same “thing”, we decided to make the most out of the presence of 9 data scientists: we shared and split between us the technical analysis of several fairness open source libraries - [AIF360](https://github.com/Trusted-AI/AIF360), [Shapash](https://github.com/MAIF/shapash), [Aequitas](https://github.com/dssg/aequitas), [What if tool](https://research.google/teams/brain/pair/) **TODO: j'ai l'impression que ce lien n'est pas le bon**, [Fairlearn](https://fairlearn.org/). Hence the concept of benchathon.
 
@@ -55,20 +54,17 @@ Hackathons usually involve teams that compete on the “same topic” for 2 to 3
 Even though all of us were entitled as “Data Scientists”, we all came from different structures, different backgrounds, and different (coding) habits. That diversity definitely triggered (and still does) great discussions and perspectives along the initiative. Still, an important step during the benchathon was to settle on an interpretation grid that would make the outcome as reusable and general as possible, and as unbiased as possible - in line with the topic then :). A few criteria were identified:
 
 
-**TODO: set all rows to white color**
-
-
-| **Criteria**      | **Description**                                                                                                  | **Scale**      |  
-|:-----------------:|:----------------------------------------------------------------------------------------------------------------:|:--------------:|  
-| Installation      | How easy is it to get started?                                                                                   | 1.5            |  
-| Usability         | How easy to use is the API?                                                                                      | 1.5            |  
-| Documentation     | How well documented is the library?                                                                              | 1.5            |  
-| Completeness      | Does the library perform everything it is supposed to?                                                           | 1.5            |  
-| Reliability       | Does the library seem reliable? (code quality, tests, …)                                                         | 1.5            |  
-| Legitimacy        | Is the library popular within the community? (number of stars on GitHub, latest commit, number of issues, …)     | 1.5            |  
-| Future            | Gut instinct - would you trust it and use it in real projects?                                                   | Y/N            |  
-| Weaknesses        | What is currently missing?                                                                                       | N/A            |  
-
+<table>
+<tr><th>   <strong>Criteria</strong>                  </th><th>    <strong>Description</strong>                                                                                                             </th><th>   <strong>Scale</strong>           </th>  </tr>
+<tr><td align="center" bgcolor="white"> Installation  </td><td align="center" bgcolor="white"> How easy is it to get started?                                                                               </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Usability     </td><td align="center" bgcolor="white"> How easy to use is the API?                                                                                  </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Documentation </td><td align="center" bgcolor="white"> How well documented is the library?                                                                          </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Completeness  </td><td align="center" bgcolor="white"> Does the library perform everything it is supposed to?                                                       </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Reliability   </td><td align="center" bgcolor="white"> Does the library seem reliable? (code quality, tests, …)                                                     </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Legitimacy    </td><td align="center" bgcolor="white"> Is the library popular within the community? (number of stars on GitHub, latest commit, number of issues, …) </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
+<tr><td align="center" bgcolor="white"> Future        </td><td align="center" bgcolor="white"> Gut instinct - would you trust it and use it in real projects?                                               </td><td align="center" bgcolor="white"> Y/N </td>  </tr>
+<tr><td align="center" bgcolor="white"> Weaknesses    </td><td align="center" bgcolor="white"> What is currently missing?                                                                                   </td><td align="center" bgcolor="white"> N/A </td>  </tr>
+</table>
 
 
 
