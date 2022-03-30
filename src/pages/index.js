@@ -13,45 +13,6 @@ import Col from 'react-bootstrap/Col'
 import recentPosts from "../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json";
 
 
-// const features = [
-//   {
-//     title: <a href="/blog" >Have a look at our Blog</a>,
-//     imageUrl: 'img/news.svg',
-//     description: (
-//       <>
-//         Discover our articles and publications to stay informed of the latest AI trends 
-//       </>
-//     ),
-//   },
-  
-//   {
-//     title: <a href="/homehack" >Try our online datascience challenges</a>,
-//     imageUrl: 'img/LogoHack.svg',
-//     description: (
-//       <>
-//         Take the Eki hackathons to test your Datascience capacity and improve your skills
-//       </>
-//     ),
-//   },
-//   {
-//     title: <a href="/opensource" >Join our open source community</a>,
-//     imageUrl: 'img/LogoOpenSource.svg',
-//     description: (
-//       <>
-//         Discover our open source libraries and contribute to their development.
-//       </>
-//     ),
-//   },
-//   {
-//     title: <a href="/conviction" >Discover our Tech Conviction</a>,
-//     imageUrl: 'img/techconviction.svg',
-//     description: (
-//       <>
-//         Discover our open source libraries and contribute to their development.
-//       </>
-//     ),
-//   },
-// ];
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -99,7 +60,7 @@ function Home() {
         style={{backgroundImage:`url(${useBaseUrl('img/HomePageIllustration_blank.png')})`,backgroundSize:"cover",backgroundPosition: "bottom", minHeight:"calc(100vh - 200px)",zIndex:-1}}
       >
         <div className={clsx("container", styles.card)}>
-          <h1 className="hero__subtitle" style={{color:"#0b7c39",fontSize:"40px"}}>datacraft <img src="img/datacraft_logo.png" alt=" " width="40" height="35"/></h1>
+          <h1 className="hero__subtitle" style={{color:"#0b7c39",fontSize:"40px"}}><img src="img/datacraft_logo_full.png" alt=" " width="250" height="40"/></h1>
           <h1 className="hero__subtitle" style={{color:"black"}}>Welcome to the datacraft club blog!</h1>
           <p className="hero__subtitle" style={{color:"black", marginBottom: 0}}>Inside the community of data scientists</p>
         </div>

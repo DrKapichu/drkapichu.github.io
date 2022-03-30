@@ -26,10 +26,10 @@ module.exports = {
       // href: 'https://opensource.facebook.com/',
     },
     navbar: {
-      title: 'datacraft',
+      title: '',
       logo: {
         alt: ' ',
-        src: 'img/datacraft_logo.png',             // This changes the logo that appears side-to-side with the 'datacraft' button in the navigation bar.
+        src: 'img/datacraft_logo_full.png',             // This changes the logo that appears side-to-side with the 'datacraft' button in the navigation bar.
       },
       items: [
         {to: 'blog/', label: 'Blog', position: 'left'},
