@@ -19,7 +19,7 @@ keywords:
 **TODO**  
 **- Mettre quelque chose pour author_title.**  
 **- Mettre les keywords les plus pertinents.**  
-**- Écrire une description en env. 10 mots.**  
+**- Écrire une description en env. 10-20 mots.**  
 **TODO**
 
 
@@ -27,7 +27,7 @@ keywords:
 
 
 # Fairness in AI - How a benchathon unlocked our knowledge
-Welcome to the second article of a series that aims at sharing how a group of private players (Danone, Ekimetrics, datacraft), researchers (Telecom Paris, Inria), and students (Université de Cergy), partnered to uncover fairness & ethics in Artificial Intelligence from a practical standpoint. The group tried to tackle the following challenge: “how should a Data Scientist concretely react when exposed to fairness concerns?”. If you are interested to understand how this initiative kick started, have a look here **TODO : Link to article**.
+Welcome to the second article of a series that aims at sharing how a group of private players (Danone, Ekimetrics, datacraft), researchers (Telecom Paris, Inria), and students (Université de Cergy), partnered to uncover fairness & ethics in Artificial Intelligence from a practical standpoint. The group tried to tackle the following challenge: “how should a Data Scientist concretely react when exposed to fairness concerns?”. If you are interested to understand how this initiative kick started, have a look here <span style={{"background-color":"#FFFF00"}}>TODO: Link to article</span> <mark style={{"background-color":"#FFFF00"}}>TODO: Link to article</mark>
 
 This article casts a light on the benchathon - definition below - in which the group participated to get a quick and documented opinion of an already rich fairness/ethical ecosystem. It first explains how the concept of benchathon accelerated our practical grasp of the topic, and then explores the first conclusions drawn about the fairness ecosystem.
 
