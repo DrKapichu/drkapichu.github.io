@@ -1,11 +1,11 @@
 ---
-slug: AI-Fairness-&-benchathon
+slug: AI-Fairness-et-benchathon
 title: Fairness in AI - How a benchathon unlocked our knowledge  
 author: Antoine Isnardy
 author_title: -????
-author_url: mailto:contact@datacraft.paris
+author_url: mailto:antoine.isnardy@danone.com
 header_image_url: img/blog/UsberetRica.jpg
-tags: [TAG1, TAG2, TAG3, TAG4]
+tags: [benchathon, fairness, aif360, fairlearn, ethicalai]
 description: ECRIRE UNE DESCRIPTION ICI
 keywords:
     - keyword1
@@ -16,12 +16,10 @@ keywords:
 
 <!--truncate-->
 
-**TODO** 
-**- Changer author_url --> mettre l'adresse mail d'Antoine I. ?**
-**- Changer le titre dans le header.**
-**- Mettre les tags les plus pertinents.**
-**- Mettre les keywords les plus pertinents.**
-**- Écrire une description en env. 10 mots.**
+**TODO**  
+**- Mettre quelque chose pour author_title.**  
+**- Mettre les keywords les plus pertinents.**  
+**- Écrire une description en env. 10 mots.**  
 **TODO**
 
 
@@ -39,13 +37,9 @@ This article casts a light on the benchathon - definition below - in which the g
 At this stage of our “fairness journey”, we had a decent high level understanding of what fairness could imply in real life. It was then the right time to start acting concrete: try and derive a pragmatic methodology, even if it implied implementing our own routines.
 
 To that end, a very first step was to make sure we’d not reinvent the wheel, and we’d plainly benefit from existing open source contributions. This happened during a one-day benchathon. If you work in tech, you may already be familiar with the following two notions:
- - Benchmark: *gathering and comparing qualitative information about how an activity is conducted through people, processes, and technology[^1]*
- - Hackathon: *[short] event [...] in which computer programmers and others involved in software development [...] collaborate intensively on software projects[^2]*
+ - Benchmark: *gathering and comparing qualitative information about how an activity is conducted through people, processes, and technology* (Source: https://www.apqc.org/blog/what-are-four-types-benchmarking)  
+ - Hackathon: *[short] event [...] in which computer programmers and others involved in software development [...] collaborate intensively on software projects* (Source: https://en.wikipedia.org/wiki/Hackathon)  
 
-
-[^1] Source: https://www.apqc.org/blog/what-are-four-types-benchmarking  
-[^2] Source: https://en.wikipedia.org/wiki/Hackathon   
-**TODO: Decide whether these footnotes stay here or go somewhere else**
 
 
 Hackathons usually involve teams that compete on the “same topic” for 2 to 3 days. Because we were limited in time - 1 day, rather than focusing all on the same “thing”, we decided to make the most out of the presence of 9 data scientists: we shared and split between us the technical analysis of several fairness open source libraries - [AIF360](https://github.com/Trusted-AI/AIF360), [Shapash](https://github.com/MAIF/shapash), [Aequitas](https://github.com/dssg/aequitas), [What if tool](https://research.google/teams/brain/pair/) **TODO: j'ai l'impression que ce lien n'est pas le bon**, [Fairlearn](https://fairlearn.org/). Hence the concept of benchathon.
@@ -56,14 +50,14 @@ Even though all of us were entitled as “Data Scientists”, we all came from d
 
 <table>
 <tr><th>   <strong>Criteria</strong>                  </th><th>    <strong>Description</strong>                                                                                                             </th><th>   <strong>Scale</strong>           </th>  </tr>
-<tr><td align="center" bgcolor="white"> Installation  </td><td align="center" bgcolor="white"> How easy is it to get started?                                                                               </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
-<tr><td align="center" bgcolor="white"> Usability     </td><td align="center" bgcolor="white"> How easy to use is the API?                                                                                  </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
-<tr><td align="center" bgcolor="white"> Documentation </td><td align="center" bgcolor="white"> How well documented is the library?                                                                          </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
-<tr><td align="center" bgcolor="white"> Completeness  </td><td align="center" bgcolor="white"> Does the library perform everything it is supposed to?                                                       </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
-<tr><td align="center" bgcolor="white"> Reliability   </td><td align="center" bgcolor="white"> Does the library seem reliable? (code quality, tests, …)                                                     </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
-<tr><td align="center" bgcolor="white"> Legitimacy    </td><td align="center" bgcolor="white"> Is the library popular within the community? (number of stars on GitHub, latest commit, number of issues, …) </td><td align="center" bgcolor="white"> 1.5 </td>  </tr>
-<tr><td align="center" bgcolor="white"> Future        </td><td align="center" bgcolor="white"> Gut instinct - would you trust it and use it in real projects?                                               </td><td align="center" bgcolor="white"> Y/N </td>  </tr>
-<tr><td align="center" bgcolor="white"> Weaknesses    </td><td align="center" bgcolor="white"> What is currently missing?                                                                                   </td><td align="center" bgcolor="white"> N/A </td>  </tr>
+<tr><td align="left" bgcolor="white"> Installation  </td><td align="left" bgcolor="white"> How easy is it to get started?                                                                               </td><td align="left" bgcolor="white"> 1-5 </td>  </tr>
+<tr><td align="left" bgcolor="white"> Usability     </td><td align="left" bgcolor="white"> How easy to use is the API?                                                                                  </td><td align="left" bgcolor="white"> 1-5 </td>  </tr>
+<tr><td align="left" bgcolor="white"> Documentation </td><td align="left" bgcolor="white"> How well documented is the library?                                                                          </td><td align="left" bgcolor="white"> 1-5 </td>  </tr>
+<tr><td align="left" bgcolor="white"> Completeness  </td><td align="left" bgcolor="white"> Does the library perform everything it is supposed to?                                                       </td><td align="left" bgcolor="white"> 1-5 </td>  </tr>
+<tr><td align="left" bgcolor="white"> Reliability   </td><td align="left" bgcolor="white"> Does the library seem reliable? (code quality, tests, …)                                                     </td><td align="left" bgcolor="white"> 1-5 </td>  </tr>
+<tr><td align="left" bgcolor="white"> Legitimacy    </td><td align="left" bgcolor="white"> Is the library popular within the community? (number of stars on GitHub, latest commit, number of issues, …) </td><td align="left" bgcolor="white"> 1-5 </td>  </tr>
+<tr><td align="left" bgcolor="white"> Future        </td><td align="left" bgcolor="white"> Gut instinct - would you trust it and use it in real projects?                                               </td><td align="left" bgcolor="white"> Y/N </td>  </tr>
+<tr><td align="left" bgcolor="white"> Weaknesses    </td><td align="left" bgcolor="white"> What is currently missing?                                                                                   </td><td align="left" bgcolor="white"> N/A </td>  </tr>
 </table>
 
 
