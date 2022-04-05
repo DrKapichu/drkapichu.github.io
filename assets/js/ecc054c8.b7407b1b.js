@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[4918],{9460:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/fairlearn","name":"fairlearn","count":2,"permalink":"/blog/tags/fairlearn"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[6673],{2528:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/fairness","name":"fairness","count":2,"permalink":"/blog/tags/fairness"}')}}]);
