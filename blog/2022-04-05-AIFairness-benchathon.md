@@ -4,7 +4,7 @@ title: Fairness in AI - How a benchathon unlocked our knowledge
 author: Antoine Isnardy
 author_title: -????
 author_url: mailto:antoine.isnardy@danone.com
-header_image_url: img/blog/AIFairness-benchathon3.jpg
+header_image_url: img/blog/AIFairness-benchathon4.jpg
 tags: [benchathon, fairness, aif360, fairlearn, ethicalai]
 description: ECRIRE UNE DESCRIPTION ICI
 keywords:
