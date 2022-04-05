@@ -26,7 +26,7 @@ jobs:
           node-version: 17
       - run: npm install
       - run: |
-          git config --global user.email "julien.guyot@datacraft.paris"
+          git config --global user.email "julien.guyot21@gmail.com"
           git config --global user.name "DrKapichu"
           npm run deploy
         env:
