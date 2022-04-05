@@ -6,30 +6,30 @@ author_title: Lead Data Scientist at Danone
 author_url: mailto:antoine.isnardy@danone.com
 header_image_url: img/blog/AIFairness-benchathon2.jpg
 tags: [benchathon, fairness, aif360, fairlearn, ethicalai]
-description: ECRIRE UNE DESCRIPTION ICI
+description: Benchmark of Python packages for AI fairness 
 keywords:
     - fairness
     - ethicalai
     - Aequitas
     - Shapash
     - aif360
+    - Dalex
     - fairlearn
     - What if tool
 ---
 
 <!--truncate-->
 
-**TODO**  
-**- Mettre les keywords les plus pertinents.**  
-**- Écrire une description en env. 10-20 mots.**  
-**TODO**
-
-
 ---
-
 
 # Fairness in AI - How a benchathon unlocked our knowledge
 Welcome to the second article of a series that aims at sharing how a group of private players (Danone, Ekimetrics, datacraft), researchers (Telecom Paris, Inria), and students (Université de Cergy), partnered to uncover fairness & ethics in Artificial Intelligence from a practical standpoint. The group tried to tackle the following challenge: “how should a Data Scientist concretely react when exposed to fairness concerns?”. If you are interested to understand how this initiative kick started, have a look here <span style={{"background-color":"#FFFF00"}}>TODO: Link to article</span> <mark style={{"background-color":"#FFFF00"}}>TODO: Link to article</mark>
+
+Welcome aboard for a journey description of how a group of private players (Danone, Ekimetrics, datacraft), researchers (Telecom Paris, Inria), and students (Université de Cergy), partnered to uncover fairness & ethics in Artificial Intelligence from a practical standpoint. The group tried to tackle the following challenge: “how should a Data Scientist concretely react when exposed to fairness concerns?”. If you are interested to understand how this initiative kick started, have a look here <span style={{"background-color":"#FFFF00"}}>TODO: Link to article</span> <mark style={{"background-color":"#FFFF00"}}>TODO: Link to article</mark>
+
+EMbarquons ensemble pour un voyage au pays de la fairness où on va vous présenter comment un groupe.... 
+Le voyage a débuté par un premier de compréhension ==> redirection vers article de vulgarisation **EN FRANÇAIS** + redirection pour le travail current vers github datacraft.
+
 
 This article casts a light on the benchathon - definition below - in which the group participated to get a quick and documented opinion of an already rich fairness/ethical ecosystem. It first explains how the concept of benchathon accelerated our practical grasp of the topic, and then explores the first conclusions drawn about the fairness ecosystem.
 
@@ -44,7 +44,7 @@ To that end, a very first step was to make sure we’d not reinvent the wheel, a
 
 
 
-Hackathons usually involve teams that compete on the “same topic” for 2 to 3 days. Because we were limited in time - 1 day, rather than focusing all on the same “thing”, we decided to make the most out of the presence of 9 data scientists: we shared and split between us the technical analysis of several fairness open source libraries - [AIF360](https://github.com/Trusted-AI/AIF360), [Shapash](https://github.com/MAIF/shapash), [Aequitas](https://github.com/dssg/aequitas), [What if tool](https://research.google/teams/brain/pair/) **TODO: j'ai l'impression que ce lien n'est pas le bon**, [Fairlearn](https://fairlearn.org/). Hence the concept of benchathon.
+Hackathons usually involve teams that compete on the “same topic” for 2 to 3 days. Because we were limited in time - 1 day, rather than focusing all on the same “thing”, we decided to make the most out of the presence of 9 data scientists: we shared and split between us the technical analysis of several fairness open source libraries - [AIF360](https://github.com/Trusted-AI/AIF360), [Shapash](https://github.com/MAIF/shapash), [Aequitas](https://github.com/dssg/aequitas), [What if tool](https://pair-code.github.io/what-if-tool/), [Fairlearn](https://fairlearn.org/). Hence the concept of benchathon.
 
 
 Even though all of us were entitled as “Data Scientists”, we all came from different structures, different backgrounds, and different (coding) habits. That diversity definitely triggered (and still does) great discussions and perspectives along the initiative. Still, an important step during the benchathon was to settle on an interpretation grid that would make the outcome as reusable and general as possible, and as unbiased as possible - in line with the topic then :). A few criteria were identified:
