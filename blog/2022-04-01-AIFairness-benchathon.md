@@ -8,7 +8,7 @@ header_image_url: img/blog/AIFairness-benchathon.png
 tags: [benchathon, fairness, aif360, fairlearn, ethicalai]
 description: ECRIRE UNE DESCRIPTION ICI
 keywords:
-    - keyword1
+    - Another keyword...
     - keyword2
     - keyword3
     - keyword4
