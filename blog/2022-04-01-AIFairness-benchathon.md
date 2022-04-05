@@ -2,22 +2,24 @@
 slug: AI-Fairness-et-benchathon
 title: Fairness in AI - How a benchathon unlocked our knowledge  
 author: Antoine Isnardy
-author_title: -????
+author_title: Lead Data Scientist at Danone
 author_url: mailto:antoine.isnardy@danone.com
 header_image_url: img/blog/AIFairness-benchathon2.jpg
 tags: [benchathon, fairness, aif360, fairlearn, ethicalai]
 description: ECRIRE UNE DESCRIPTION ICI
 keywords:
-    - Another keyword...
-    - keyword2
-    - keyword3
-    - keyword4
+    - fairness
+    - ethicalai
+    - Aequitas
+    - Shapash
+    - aif360
+    - fairlearn
+    - What if tool
 ---
 
 <!--truncate-->
 
 **TODO**  
-**- Mettre quelque chose pour author_title.**  
 **- Mettre les keywords les plus pertinents.**  
 **- Écrire une description en env. 10-20 mots.**  
 **TODO**
