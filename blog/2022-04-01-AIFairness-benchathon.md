@@ -23,20 +23,11 @@ keywords:
 ---
 
 # Fairness in AI - How a benchathon unlocked our knowledge
-<mark style={{"background-color":"#FF6600"}}>First version here</mark>
+Let's all board on a journey to the land of AI fairness that we, a group of private players (Danone, Ekimetrics, datacraft), researchers (Telecom Paris, Inria), and students (Université de Cergy), partnered to uncover fairness & ethics in Artificial Intelligence from a practical standpoint. Through this journey the group tried to tackle the following challenge: “how should a Data Scientist concretely react when exposed to fairness concerns?”.  
 
-Welcome to the second article of a series that aims at sharing how a group of private players (Danone, Ekimetrics, datacraft), researchers (Telecom Paris, Inria), and students (Université de Cergy), partnered to uncover fairness & ethics in Artificial Intelligence from a practical standpoint. The group tried to tackle the following challenge: “how should a Data Scientist concretely react when exposed to fairness concerns?”. If you are interested to understand how this initiative kick started, have a look here <span style={{"background-color":"#FFFF00"}}>TODO: Link to article</span> <mark style={{"background-color":"#FFFF00"}}>TODO: Link to article</mark>
+We started with a series of workshops to discuss the existing tools and methods, assess the needs and define an [ethical charter](https://datacraft-paris.github.io/trustworthyai/). This led to the writing of a first popularisation article, in French, which you can find [here](./biais-humains-et-algorithmes).  
+Then we continued our journey with a benchathon - definition below - in which the group participated to get a quick and documented opinion of an already rich fairness/ethical ecosystem. It first explains how the concept of benchathon accelerated our practical grasp of the topic, and then explores the first conclusions drawn about the fairness ecosystem. You can find the code developped during this benchathon on the [datacraft's GitHub repo](https://github.com/datacraft-paris/Fairness-Benchathon).
 
-EMbarquons ensemble pour un voyage au pays de la fairness où on va vous présenter comment un groupe.... 
-Le voyage a débuté par un premier de compréhension ==> redirection vers article de vulgarisation **EN FRANÇAIS** + redirection pour le travail current vers github datacraft.
-
-<mark style={{"background-color":"#FF6600"}}>Second version here: adapted</mark>
-
-Let's all board on the benchathon journey to the land of AI fairness that we, a group of private players (Danone, Ekimetrics, datacraft), researchers (Telecom Paris, Inria), and students (Université de Cergy), partnered to uncover fairness & ethics in Artificial Intelligence from a practical standpoint. Through this journey the group tried to tackle the following challenge: “how should a Data Scientist concretely react when exposed to fairness concerns?”.  
-We started with a series of workshops in the form of **mindshake times** to discuss the existing tools and methods, assess the needs and define an ethical charter. This led to the writing of a first popularisation article, in French, which you can find [here](./biais-humains-et-algorithmes). And for more info on the work of this article you are invited to visit the [datacraft's GitHub repo](https://github.com/datacraft-paris/Fairness-Benchathon) where you will find the code we developped and the charter we built.
-
-
-This article casts a light on the benchathon - definition below - in which the group participated to get a quick and documented opinion of an already rich fairness/ethical ecosystem. It first explains how the concept of benchathon accelerated our practical grasp of the topic, and then explores the first conclusions drawn about the fairness ecosystem.
 
 
 
@@ -83,7 +74,7 @@ Taking a step back, below are a few takeaways:
 
 
 ## Highlight of 6 ethical/fairness libraries
-If you are further interested in the exhaustive findings on the five libraries that were studied during the benchathon, please follow this [link](https://docs.google.com/spreadsheets/d/1Z071Ih9S7XYEcXBoX4k7SNoy6Z5DqbUM6htcpn1J_WU/edit#gid=0). The following section aims at providing a (subjective) summary of these libraries, in increasing relevance order, with respect to fairness / ethics.
+If you are further interested in the exhaustive findings on the five libraries that were studied during the benchathon, we summarized our conclusions in this [file](https://github.com/datacraft-paris/Fairness-Benchathon/blob/master/docs/Benchathon-summary.pdf). The following section aims at providing a (subjective) summary of these libraries, in increasing relevance order, with respect to fairness / ethics.
 
 
 
