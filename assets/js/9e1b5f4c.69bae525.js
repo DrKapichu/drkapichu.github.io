@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[7488],{6213:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/scalabilite-verticale-horizontale","name":"scalabilit\xe9 verticale/horizontale","count":1,"permalink":"/blog/tags/scalabilite-verticale-horizontale"}')}}]);

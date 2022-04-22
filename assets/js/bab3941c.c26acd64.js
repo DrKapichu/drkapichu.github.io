@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[5529],{5813:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/orchestrateur-de-conteneurs","name":"orchestrateur de conteneurs","count":1,"permalink":"/blog/tags/orchestrateur-de-conteneurs"}')}}]);
