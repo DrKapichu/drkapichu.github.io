@@ -57,6 +57,19 @@ La stratégie de micro-services consiste à construire chacune des fonctionnalit
 :::
 
 
+:::note
+class: dropdown
+-------
+The note body will be hidden!
+:::
+
+
+:::{admonition} Click here!
+:class: tip, dropdown
+Here's what's inside!
+:::
+
+
 Cette stratégie de microservices représente la scalabilité horizontale. Toutefois, faire tourner le même service sur plusieurs serveurs, ça implique de maintenir toutes ces machines et de s’assurer qu’elles fournissent toutes le même environnement au service en question, i.e. mêmes librairies avec les mêmes versions. Et c’est là que la conteneurisation devient un atout majeur. Pour chaque service il suffit d’écrire toutes les exigences de librairies dans un fichier, puis de lancer un conteneur Docker à partir de ce fichier.  
 Au passage cela règle un autre problème présenté sur le panneau de droite de la Figure 2. Différentes applications installées sur un même serveur pouvaient avoir besoin des mêmes librairies mais avec des versions différentes, qui elles-mêmes pouvaient appeler différentes versions d’autres librairies. Et les équipes techniques devaient trouver les moyens de les installer toutes de manière concurrente et de s’assurer que les bonnes versions étaient appelées au bon moment. La conteneurisation enlève tout simplement ce problème.  
 
