@@ -12,7 +12,7 @@ description: Blablabla
 <!--truncate-->
  
 ![img](../static/img/Article_interpret/titre.png)
-## Introduction
+## Introduction {#introduction}
 
 Over the past decade Machine Learning (ML) algorithms have developed
 drastically, with predictions becoming more accurate through innovative Neural
@@ -49,7 +49,7 @@ methodologies and take a hybrid approach on marketing mix modeling (MMM). With
 this solution, we are able to enhance both the depth and the quality of MMM
 analysis, to deliver the most advanced business insights available.
 
-## 1. Moving away from linear models in econometrics
+## 1. Moving away from linear models in econometrics {#1-moving-away-from-linear-models-in-econometrics}
 
 Marketing Mix Optimization, most often referred to as MMO (and a newer version
 of Marketing Mix Modeling), is a complex process that models the effects of
@@ -99,7 +99,7 @@ for our clients.
 ![img](../static/img/Article_interpret/img3.png) 
 
  
-## 2. How to crack interpretability in marketing measurement and AI projects
+## 2. How to crack interpretability in marketing measurement and AI projects {#2-how-to-crack-interpretability-in-marketing-measurement-and-ai-projects}
 
 “Shapley Values” find their origin in Game Theory. Their objective is to fairly
 distribute gains in a system between the members of a set group, when the
@@ -175,7 +175,7 @@ we developed a specific application of Shapley values derivated from the SHAP
 package, in order to compute absolute marketing incremental, and allowing us to
 provide the same metric as the classic Marketing Mix Modeling approach.
 
-## 3. Understanding artificial intelligence algorithms allows us to capture complex business insights
+## 3. Understanding artificial intelligence algorithms allows us to capture complex business insights {#3-understanding-artificial-intelligence-algorithms-allows-us-to-capture-complex-business-insights}
 
 The application of machine learning makes it possible to integrate more
 complexity and finesse into marketing mix models. Weak non-linear signals -
@@ -206,7 +206,7 @@ this method Ekimetrics can optimize the promotional pressure and the media
 investments, to guarantee consistency and optimal effectiveness for the entire
 marketing strategy.
 
-## Conclusion
+## Conclusion {#conclusion}
 
 The performance of Machine Learning algorithms is generally superior to
 traditional marketing measurement tools (taking into account cross-effect and

@@ -16,10 +16,6 @@ module.exports = {
     image:"img/datacraft-team-3.JPG",    // This changes the previsualisation image some apps display (WhatsApp, Slack...) display when you send the link of the website.
     prism: {theme: require('prism-react-renderer/themes/dracula'), additionalLanguages: ['python'],},
     colorMode:{defaultMode:"dark", disableSwitch:true,},
-    googleAnalytics: {trackingID: 'UA-124520099-9',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
     logo: {
       alt: 'datacraft Logo',
       src: 'img/datacraft_logo.png',                  // This changes the logo that appears in the browser tab.
@@ -72,6 +68,10 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: false,
+        googleAnalytics: {trackingID: 'UA-124520099-9',
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
+        },
         /*docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/DrKapichu/drkapichu.github.io',

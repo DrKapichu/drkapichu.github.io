@@ -21,7 +21,7 @@ keywords:
 
 ---
 
-## Qu’est ce que le Few Shot Learning (FSL) ? - titre alternatif : Sujet du jour : le Few Shot Learning (FSL)
+## Qu’est ce que le Few Shot Learning (FSL) ? - titre alternatif : Sujet du jour : le Few Shot Learning (FSL) {#quest-ce-que-le-few-shot-learning-fsl----titre-alternatif--sujet-du-jour--le-few-shot-learning-fsl}
 
 Il est bien connu que la puissance des méthodes de Machine Learning supervisées, et plus particulièrement de Deep Learning avec les réseaux de neurones, depuis le début des années 2000, a reposé sur la constitution de **grands jeux de données labellisés**. Deux éléments sont importants ici : ‘grands’ et ‘labellisés’.
 
@@ -30,7 +30,7 @@ Pour le premier point, ça représente par exemple des milliers, voire des milli
 Dans le cas du **Few Shot Learning (FSL)**, les chercheurs veulent créer des méthodes capables d’apprendre avec peu de données, i.e. des dizaines ou des centaines, ce qui représente un gain de temps et d’énergie, tout en conservant des performances équivalentes aux modèles traditionnels bien sûr. C’est pourquoi en français on parle d’**apprentissage frugal**. Toutefois, en pratique les méthodes de FSL prennent un modèle traditionnel, pré-entraîné sur un grand nombre de données, et elles le spécialisent sur le cas d’usage via une courte phase d’apprentissage sur le petit jeu de données à disposition ; c’est du fine-tuning. Mais en plus, le Few Shot c’est une méthode qui va au-delà des méthodes traditionnelles, elle permet de faire du semi-supervisé, c’est ce qu’on va voir avec le cas d’usage.
 
 
-## Le cas d’usage - titre alternatif : C’est quoi le problème ?!
+## Le cas d’usage - titre alternatif : C’est quoi le problème ?! {#le-cas-dusage---titre-alternatif--cest-quoi-le-problème}
 
 Ekimetrics s’est intéressé à l’apprentissage frugal pour exploiter les énormes jeux de données des petits commentaires quotidiens sur internet, avec une problématique de gain de temps… De la frugalité avec des énormes jeux de données ? On vous explique !
 
@@ -41,7 +41,7 @@ Mais si la machine était capable d’évaluer les commentaires, à 2 Gigahertz,
 Dans la suite, nous vous présentons la méthode PET, comment l’utiliser dans le cadre du FSL et enfin, comment Ekimetrics l’utilise sur les avis des consommateurs.
 
 
-## PET qu’est ce que c’est ?
+## PET qu’est ce que c’est ? {#pet-quest-ce-que-cest}
 
 **PET** est l’acronyme de ‘**Pattern Exploiting Training**’. La méthode repose sur un ensemble fixe et prédéfini de **patterns** et de **verbalizers** et un **Pre-trained Language Model** a.k.a. **PLM**. Les patterns sont les phrases à trou (“It was…”, “Just…!”, “All in all, it was…”, “In summary, the restaurant is…”) et les verbalizers sont les mots qui peuvent compléter ces phrases et auxquels sont associées des notes chiffrées. On commence à retrouver les nombres que l’ordinateur aime tant !
 
@@ -65,7 +65,7 @@ Concrètement, reprenons notre exemple des évaluations des restaurants, la mét
 Par exemple (voir Fig. 1), avec le commentaire “Best pizza ever!”, on construit la phrase à trou : “Best pizza ever! It was … .” que le PLM va compléter avec ‘great’ avec une confiance de 0.8, sachant que ce mot est noté +1.
 
 
-## FSL + PET : première application aux avis internet
+## FSL + PET : première application aux avis internet {#fsl--pet--première-application-aux-avis-internet}
 
 Revenons à la masse brute des avis des consommateurs sur internet. **PET est la méthode** pour associer une note à un commentaire, le **FSL est le moyen** de traiter automatiquement tout le jeu de données, et le travail de l’algorithme se fait en deux étapes.
 
@@ -74,7 +74,7 @@ Dans un premier temps, on labellise un petit nombre de commentaires, une centain
 Cependant, cette application basique présente des limites. D’une part, le verbalizer donné par le PLM peut ne pas être le plus adapté au commentaire et, d’autre part, c’est très ambitieux de spécialiser le PLM une fois sur une centaine d’exemples pour ensuite en traiter des dizaines de milliers ou plus. C’est pourquoi les chercheurs ont développé une méthode de distillation qui augmente la robustesse de PET, c’est la méthode **iPET : iterative PET**.
 
 
-## i(terative)PET : une méthode de distillation astucieuse
+## i(terative)PET : une méthode de distillation astucieuse {#iterativepet--une-méthode-de-distillation-astucieuse}
 
 Une image peut valoir mille mots…
 
@@ -95,7 +95,7 @@ Pour la troisième itération, vous avez compris le principe je pense…
 À la fin, les millions de commentaires sont plutôt bien soft-labellisés, à la vitesse de la machine et au coût de l’électricité, tout est prêt pour un classifieur sur le schéma d’Ekimetrics et je vous ai expliqué tous les termes entourés sur la figure et présenté toutes les étapes. 
 
 
-## Avantages, inconvénients, limites et améliorations.
+## Avantages, inconvénients, limites et améliorations. {#avantages-inconvénients-limites-et-améliorations}
 
 Nous avons déjà vu certains des avantages. Internet est une place sur laquelle il y a pléthore d’avis en tout genre : films, restaurants, hôtels, produits de grande consommation, lieux divers… Annoter ces données serait un travail coûteux et sans fin, nous l’avons dit. L’approche iPET permet d’automatiser cette étape, à la vitesse de l’ordinateur et quel que soit le cas d’étude.
 
@@ -108,7 +108,7 @@ Toutefois, le domaine d’application se restreint à des données textuelles as
 
 # Notes de Xavier que je n'ai pas mises
 
-## LIMITES et PISTES D'AMÉLIORATIONS
+## LIMITES et PISTES D'AMÉLIORATIONS {#limites-et-pistes-daméliorations}
 
 PLM ou Foundation modèle avec quelles données a-t-il été entraîné ???
 

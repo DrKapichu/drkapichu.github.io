@@ -31,7 +31,7 @@ Then we continued our journey with a benchathon - definition below - in which th
 
 
 
-## Benchathon as an innovation catalyst
+## Benchathon as an innovation catalyst {#benchathon-as-an-innovation-catalyst}
 At this stage of our “fairness journey”, we had a decent high level understanding of what fairness could imply in real life. It was then the right time to start acting concrete: try and derive a pragmatic methodology, even if it implied implementing our own routines.
 
 To that end, a very first step was to make sure we’d not reinvent the wheel, and we’d plainly benefit from existing open source contributions. This happened during a one-day benchathon. If you work in tech, you may already be familiar with the following two notions:
@@ -73,12 +73,12 @@ Taking a step back, below are a few takeaways:
 
 
 
-## Highlight of 6 ethical/fairness libraries
+## Highlight of 6 ethical/fairness libraries {#highlight-of-6-ethicalfairness-libraries}
 If you are further interested in the exhaustive findings on the five libraries that were studied during the benchathon, we summarized our conclusions in this [file](https://github.com/datacraft-paris/Fairness-Benchathon/blob/master/docs/Benchathon-summary.pdf). The following section aims at providing a (subjective) summary of these libraries, in increasing relevance order, with respect to fairness / ethics.
 
 
 
-### Shapash
+### Shapash {#shapash}
 [Open source library](https://github.com/MAIF/shapash) developed by MAIF - a French insurance actor, and Quantmetry - a French AI consultancy, that mainly focuses on interpretability (no built-in fairness-oriented feature). It acts as a layer on top of the usual interpretability toolbox (feature importance, SHAP values, …). It comes with a very decent web interface, high quality code, and a great community/documentation. It also provides an audit report of the project (from data prep to modeling, to exploratory analysis).
 
 In a nutshell: great project, but not that relevant (yet?) for fairness topics.
@@ -92,7 +92,7 @@ Screenshot of Shapash. <a target="_blank" rel="noopener noreferrer" href="https:
 
 
 
-### What if tool
+### What if tool {#what-if-tool}
 [Open source interface](https://pair-code.github.io/what-if-tool/) developed by Google. It mainly aims at conducting counterfactual analysis (“what would be the machine learning model prediction if we changed the value of that particular attribute, like the sex e.g.?”). It comes with a decent web interface, especially to deal with unstructured data like images. Documentation is however not handy to deal with.
 
 In a nutshell: great interface. However, counterfactual analysis is only one (important) feature among the different aspects related to fairness, which in turn does not justify a lock-in with that specific tool.
@@ -105,7 +105,7 @@ Screenshot of What-if tool. <a target="_blank" rel="noopener noreferrer" href="h
 </div>
 
 
-### Aequitas
+### Aequitas {#aequitas}
 [Aequitas](http://aequitas.dssg.io/) is a bias and audit toolkit developed by Carnegie Mellon University. It aims at spotting unfair allocation compared to population repartition or wrong decisions about certain groups of people. It comes with a web interface (which we could not make work) and a Python library to help compute fairness metrics. Documentation is decent, especially their representation of the ["fairness tree"](http://www.datasciencepublicpolicy.org/our-work/tools-guides/aequitas/), which helps to navigate the (many and ambiguous) fairness metrics, depending on the use case.
 
 In a nutshell: Aequitas is a tool that has been available for quite some time now, but that does not benefit from a living community. To be kept under the radar (or contribute to!).
@@ -119,7 +119,7 @@ Screenshot of Aequitas web application. <a target="_blank" rel="noopener norefer
 
 
 
-### Fairlearn
+### Fairlearn {#fairlearn}
 [Fairlearn](https://fairlearn.org/) is an open source library maintained by diverse contributors (from Microsoft, Zalando, …). It aims at tackling each step of the fairness value chain. It implements fairness metrics, of which you have a summary below:
 
 
@@ -148,7 +148,7 @@ Screenshot of the Fairlearn dashboard. <a target="_blank" rel="noopener noreferr
 </div>
 
 
-### AIF360
+### AIF360 {#aif360}
 [AIF360](http://aif360.mybluemix.net/) is an open source library developed by IBM. From our perspective, and before doing this initiative, this library was considered as the go-to for tackling fairness topics. It comes with an online tool, implements a wide range of mitigation techniques:
  - Pre-processing methods among which reweighting [[4]](#reference), or learning fair representations [[5]](#reference)
  - In-Processing methods: grid search reduction [[6, 7]](#reference)
@@ -168,7 +168,7 @@ Screenshot of AIF360. <a target="_blank" rel="noopener noreferrer" href="https:/
 </div>
 
 
-## Conclusion
+## Conclusion {#conclusion}
 At this point in time, we had discovered very interesting libraries, some of them backed by great communities and capabilities. Still, some open points remained that we thought would be worth investing time on:
  - There was no clear winner: each library came with pros and cons. An ideal tool should be able to combine the best of each.
  - All those tools were very much focused (and still are) on the tooling, namely implementing a wide set of mitigation techniques or fairness dashboards. However, we were still missing a systematic framework for tackling fairness topics, that not only would make practical tools available, but that would also provide the associated reasoning: what question should a data scientist ask themselves? In which situation? Who should take part in this or that sensitive decision with respect to the model, …?
@@ -177,7 +177,7 @@ This is what will be tackled in the third article of this series. We’ll introd
 
 
 
-## Reference
+## Reference {#reference}
 
 [1] - Credits: Data Robot – Trusted AI 102: A Guide to Building Fair and Unbiased AI Systems  
 [2] - [Agarwal et al. (2018)  A Reductions Approach to Fair Classification](https://arxiv.org/abs/1803.02453)  

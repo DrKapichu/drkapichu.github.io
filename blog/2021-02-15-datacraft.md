@@ -45,7 +45,7 @@ Cet article a été initialement publié le 15/02/2021 dans [Visionary](https://
 Un club Data Science et IA ? Là où beaucoup veulent absolument qu’on remplace les humains par des robots, les experts de l’IA démontrent la supériorité des échanges humains. Car il y avait un besoin d’échange dans la communauté de la data science et [Isabelle Hilali](https://www.linkedin.com/in/isabelle-hilali-82b5111/), CEO et fondatrice de Datacraft, que [nous avions déjà interviewée](https://visionarymarketing.com/fr/2016/09/big-data-sante-combinaison-necessaire/) ici il y a quelques années, l’avait pressenti. Elle n’a pas hésité à lancer son club data science en plein milieu de la crise du Covid et a démontré, même en ces temps difficiles que tout est possible. Elle a démontré également que la nécessité de se parler, y compris pour les experts de l’IA et de la data science, est plus forte que jamais. Retour sur la création d’un club hors du commun, où se dessine collaborativement le futur de vos logiciels. 
 
 
-## Datacraft : un club data science et IA installé au cœur de La Sorbonne
+## Datacraft : un club data science et IA installé au cœur de La Sorbonne {#datacraft--un-club-data-science-et-ia-installé-au-cœur-de-la-sorbonne}
 
 ![image](./img/2021-02-15-datacraft/datacraft-scai.png "J’ai rencontré Isabelle Hilali dans ses locaux du SCAI (Sorbonne Center for Artificial Intelligence) qui héberge Datacraft, le club de la data science et de l’IA qu’elle a créé")
 **il manque une légende pour cette image**
@@ -81,7 +81,7 @@ Le Centre d’intelligence artificielle de la Sorbonne a été imaginé pour per
 
 
 
-## Un portrait robot du data scientist ? Impossible tant ce mot recouvre des réalités différentes
+## Un portrait robot du data scientist ? Impossible tant ce mot recouvre des réalités différentes {#un-portrait-robot-du-data-scientist--impossible-tant-ce-mot-recouvre-des-réalités-différentes}
 
 J’aimerais bien faire un portrait robot de la [data scientist](https://visionarymarketing.com/fr/2015/07/data-scientist/), mais il n’y en a pas beaucoup pour l’instant … Alors j’ai commencé par le data scientist au sens large.
 
@@ -99,7 +99,7 @@ Le bon data scientist, qui va être performant dans une organisation, doit être
 > "Pour moi, le bon data scientist est quelqu’un d’ouvert et de collaboratif, et qui a des compétences en mathématiques et en informatique, ou au moins la capacité à travailler sur ces sujets"
 
 
-## La nécessité d’apprendre dans le domaine de la data science
+## La nécessité d’apprendre dans le domaine de la data science {#la-nécessité-dapprendre-dans-le-domaine-de-la-data-science}
 
 Le besoin principal sur lequel j’avais envie de travailler, était la nécessité d’apprendre en permanence.
 
@@ -112,7 +112,7 @@ Je me suis dit qu’il faudrait qu’il y ait des lieux qui permettent aux gens 
 > "Notre volonté avec Datacraft était de créer ce réseau de lieux pour se retrouver entre experts pour un échange de bonnes pratiques"
 
 
-## Le lancement de Datacraft, le club data science et IA
+## Le lancement de Datacraft, le club data science et IA {#le-lancement-de-datacraft-le-club-data-science-et-ia}
 
 J’ai lancé DataCraft en janvier 2020, avec le groupe Accor et l’Insep, les deux premiers membres qui m’ont fait confiance, et dans de supers locaux dans le Marais.
 
@@ -127,7 +127,7 @@ Et puis finalement, on avait encore davantage besoin de cet échange de bonnes p
 La communauté a énormément grossi. Nous sommes passés de 80 a plus de 500 en fin de confinement, en fédérant des gens qui avaient envie de s’entraider.
 
 
-## Un club data science : comment ça marche ?
+## Un club data science : comment ça marche ? {#un-club-data-science--comment-ça-marche}
 
 Par exemple, un membre va communiquer sur le développement d’une application en Python, alors qu’il a l’habitude de faire sur [Adobe Air](https://help.adobe.com/en_US/air/build/index.html), et poser la question si d’autres membres ont déjà fait cela pour un type d’applications, pour un tableau de bord par exemple.
 
@@ -153,7 +153,7 @@ Ou encore une startup qui travaille sur les données des réseaux sociaux en san
 Ou encore Danone, par exemple, qui est en train de rédiger sa [charte](https://visionarymarketing.com/fr/glossaire/marketing-ethique/) sur l’utilisation responsable des données, qui la réalise avec d’autres membres qui l’ont déjà fait pour l’écrire ensemble.
 
 
-## L’avenir pour Datacraft, le club de la data science
+## L’avenir pour Datacraft, le club de la data science {#lavenir-pour-datacraft-le-club-de-la-data-science}
 
 L’idée était d’avoir un lieu qui donne envie de collaborer et de se poser des questions sur la façon dont on travaille la data, quelle responsabilité on a envers la société.
 
@@ -166,7 +166,7 @@ C’est un lieu ouvert où les entreprises sont les bienvenues. Etre hébergés 
 **Dans le futur, il y aura d’autres bases datacraft** qui seront toutes imaginées autour de ce concept de collaboration et de responsabilité.
 
 
-## Le Covid : crise ou opportunité ?
+## Le Covid : crise ou opportunité ? {#le-covid--crise-ou-opportunité}
 
 Cela a été aussi une source de créativité pour nous, Cela nous a permis de faire des choses à distance, et d’avoir, par exemple, des personnes en Ouganda qui nous ont demandé de participer à un atelier. Nous n’aurions pas pu faire ce genre de choses aussi rapidement.
 

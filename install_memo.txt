@@ -1,0 +1,6 @@
+npm i @docusaurus/core@2.0.0-beta.14 @docusaurus/plugin-google-analytics@2.0.0-beta.14 @docusaurus/preset-classic@2.0.0-beta.14 @docusaurus/theme-search-algolia@2.0.0-beta.14
+npm i react@16.8.4 react-bootstrap@1.6.1 react-dom@16.8.4 react-helmet@6.1.0 react-inline-script@1.2.0
+npm i @backstage/plugin-tech-radar@0.4.5 clsx@1.1.1
+npm i bootstrap@4.6.0 yarn@1.22.10
+npm i @mdx-js/react@1.6.21
+
